@@ -1,0 +1,1161 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Interstellar",
+      "poster": "https://m.media-amazon.com/images/I/71niXI3lxlL._AC_UF894,1000_QL80_.jpg",
+      "genre": "Sci-Fi",
+      "rating": 8.6,
+      "year": 2014,
+      "description": "A team travels through a wormhole to save humanity."
+    },
+    {
+      "id": "2",
+      "title": "Inception",
+      "poster": "https://m.media-amazon.com/images/I/51nbVEuw1HL._AC_UF894,1000_QL80_.jpg",
+      "genre": "Action",
+      "rating": 8.8,
+      "year": 2010,
+      "description": "A thief enters dreams to steal information."
+    },
+    {
+      "id": "3",
+      "title": "Avengers: Endgame",
+      "poster": "https://m.media-amazon.com/images/I/81ai6zx6eXL._AC_UF1000,1000_QL80_.jpg",
+      "genre": "Superhero",
+      "rating": 8.4,
+      "year": 2019,
+      "description": "The Avengers assemble for the final battle."
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "faa8",
+      "tmdb_id": 1539104,
+      "title": "JUJUTSU KAISEN: Execution -Shibuya Incident x The Culling Game Begins-",
+      "poster_path": "/tc7RrVW5FGvyO2tsgW6LIN1esHI.jpg",
+      "vote_average": 0
+    },
+    {
+      "id": "475a",
+      "tmdb_id": 1311031,
+      "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+      "poster_path": "/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg",
+      "vote_average": 7.797
+    }
+  ],
+  "movie_cache": [
+    {
+      "id": "1311031",
+      "adult": false,
+      "backdrop_path": "/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
+      "belongs_to_collection": {
+        "id": 925155,
+        "name": "Demon Slayer: Kimetsu no Yaiba Collection",
+        "poster_path": "/3exjjYTseefny9nYjSbkIblZZdK.jpg",
+        "backdrop_path": "/oHx043lHsysn8klll1nPvKMBHLf.jpg"
+      },
+      "budget": 20000000,
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "homepage": "https://www.demonslayer-movie.com",
+      "imdb_id": "tt32820897",
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_title": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来",
+      "overview": "The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro, Nezuko, and the Hashira face terrifying Upper Rank demons in a desperate fight as the final battle against Muzan Kibutsuji begins.",
+      "popularity": 159.6562,
+      "poster_path": "/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg",
+      "production_companies": [
+        {
+          "id": 5887,
+          "logo_path": "/m6FEqz8rQECnmfjEwjNhNAlmhCJ.png",
+          "name": "ufotable",
+          "origin_country": "JP"
+        },
+        {
+          "id": 2883,
+          "logo_path": "/rDYExnBV61jGQnkhVVrPN4Yl7O1.png",
+          "name": "Aniplex",
+          "origin_country": "JP"
+        },
+        {
+          "id": 2918,
+          "logo_path": "/gyEWUBWwqrm3H5T2hkERD9LxpOq.png",
+          "name": "Shueisha",
+          "origin_country": "JP"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "JP",
+          "name": "Japan"
+        }
+      ],
+      "release_date": "2025-07-18",
+      "revenue": 740400000,
+      "runtime": 156,
+      "spoken_languages": [
+        {
+          "english_name": "Japanese",
+          "iso_639_1": "ja",
+          "name": "日本語"
+        }
+      ],
+      "status": "Released",
+      "tagline": "It's time to have some fun.",
+      "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+      "video": false,
+      "vote_average": 7.797,
+      "vote_count": 531
+    },
+    {
+      "id": "1311031",
+      "adult": false,
+      "backdrop_path": "/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
+      "belongs_to_collection": {
+        "id": 925155,
+        "name": "Demon Slayer: Kimetsu no Yaiba Collection",
+        "poster_path": "/3exjjYTseefny9nYjSbkIblZZdK.jpg",
+        "backdrop_path": "/oHx043lHsysn8klll1nPvKMBHLf.jpg"
+      },
+      "budget": 20000000,
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "homepage": "https://www.demonslayer-movie.com",
+      "imdb_id": "tt32820897",
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_title": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来",
+      "overview": "The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro, Nezuko, and the Hashira face terrifying Upper Rank demons in a desperate fight as the final battle against Muzan Kibutsuji begins.",
+      "popularity": 159.6562,
+      "poster_path": "/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg",
+      "production_companies": [
+        {
+          "id": 5887,
+          "logo_path": "/m6FEqz8rQECnmfjEwjNhNAlmhCJ.png",
+          "name": "ufotable",
+          "origin_country": "JP"
+        },
+        {
+          "id": 2883,
+          "logo_path": "/rDYExnBV61jGQnkhVVrPN4Yl7O1.png",
+          "name": "Aniplex",
+          "origin_country": "JP"
+        },
+        {
+          "id": 2918,
+          "logo_path": "/gyEWUBWwqrm3H5T2hkERD9LxpOq.png",
+          "name": "Shueisha",
+          "origin_country": "JP"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "JP",
+          "name": "Japan"
+        }
+      ],
+      "release_date": "2025-07-18",
+      "revenue": 740400000,
+      "runtime": 156,
+      "spoken_languages": [
+        {
+          "english_name": "Japanese",
+          "iso_639_1": "ja",
+          "name": "日本語"
+        }
+      ],
+      "status": "Released",
+      "tagline": "It's time to have some fun.",
+      "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+      "video": false,
+      "vote_average": 7.797,
+      "vote_count": 531
+    },
+    {
+      "id": "1054867",
+      "adult": false,
+      "backdrop_path": "/jUPCUYoVdTGa5DBSxOTAriLWqmW.jpg",
+      "belongs_to_collection": null,
+      "budget": 130000000,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        }
+      ],
+      "homepage": "https://www.onebattleafteranothermovie.com",
+      "imdb_id": "tt30144839",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "One Battle After Another",
+      "overview": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
+      "popularity": 376.4645,
+      "poster_path": "/m1jFoahEbeQXtx4zArT2FKdbNIj.jpg",
+      "production_companies": [
+        {
+          "id": 174,
+          "logo_path": "/ingPVoHnINIrFR7WHmYux1f5pES.png",
+          "name": "Warner Bros. Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 178,
+          "logo_path": null,
+          "name": "Ghoulardi Film Company",
+          "origin_country": "US"
+        },
+        {
+          "id": 216687,
+          "logo_path": "/kKVYqekveOvLK1IgqdJojLjQvtu.png",
+          "name": "Domain Entertainment",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2025-09-23",
+      "revenue": 200300000,
+      "runtime": 162,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        },
+        {
+          "english_name": "Spanish",
+          "iso_639_1": "es",
+          "name": "Español"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Some search for battle, others are born into it...",
+      "title": "One Battle After Another",
+      "video": false,
+      "vote_average": 7.613,
+      "vote_count": 1352
+    },
+    {
+      "id": "1054867",
+      "adult": false,
+      "backdrop_path": "/jUPCUYoVdTGa5DBSxOTAriLWqmW.jpg",
+      "belongs_to_collection": null,
+      "budget": 130000000,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        }
+      ],
+      "homepage": "https://www.onebattleafteranothermovie.com",
+      "imdb_id": "tt30144839",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "One Battle After Another",
+      "overview": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
+      "popularity": 376.4645,
+      "poster_path": "/m1jFoahEbeQXtx4zArT2FKdbNIj.jpg",
+      "production_companies": [
+        {
+          "id": 174,
+          "logo_path": "/ingPVoHnINIrFR7WHmYux1f5pES.png",
+          "name": "Warner Bros. Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 178,
+          "logo_path": null,
+          "name": "Ghoulardi Film Company",
+          "origin_country": "US"
+        },
+        {
+          "id": 216687,
+          "logo_path": "/kKVYqekveOvLK1IgqdJojLjQvtu.png",
+          "name": "Domain Entertainment",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2025-09-23",
+      "revenue": 200300000,
+      "runtime": 162,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        },
+        {
+          "english_name": "Spanish",
+          "iso_639_1": "es",
+          "name": "Español"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Some search for battle, others are born into it...",
+      "title": "One Battle After Another",
+      "video": false,
+      "vote_average": 7.613,
+      "vote_count": 1352
+    },
+    {
+      "id": "1062722",
+      "adult": false,
+      "backdrop_path": "/hpXBJxLD2SEf8l2CspmSeiHrBKX.jpg",
+      "belongs_to_collection": null,
+      "budget": 120000000,
+      "genres": [
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 27,
+          "name": "Horror"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        }
+      ],
+      "homepage": "https://www.frankensteingdt.com",
+      "imdb_id": "tt1312221",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Frankenstein",
+      "overview": "Dr. Victor Frankenstein, a brilliant but egotistical scientist, brings a creature to life in a monstrous experiment that ultimately leads to the undoing of both the creator and his tragic creation.",
+      "popularity": 736.4639,
+      "poster_path": "/g4JtvGlQO7DByTI6frUobqvSL3R.jpg",
+      "production_companies": [
+        {
+          "id": 101082,
+          "logo_path": "/zjAYU6sUmYaeFeJ1yWeaqzsWAz8.png",
+          "name": "Double Dare You",
+          "origin_country": "US"
+        },
+        {
+          "id": 10678,
+          "logo_path": null,
+          "name": "Demilo Films",
+          "origin_country": "CA"
+        },
+        {
+          "id": 279898,
+          "logo_path": null,
+          "name": "Bluegrass 7",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        },
+        {
+          "iso_3166_1": "CA",
+          "name": "Canada"
+        }
+      ],
+      "release_date": "2025-10-17",
+      "revenue": 144496,
+      "runtime": 150,
+      "spoken_languages": [
+        {
+          "english_name": "Danish",
+          "iso_639_1": "da",
+          "name": "Dansk"
+        },
+        {
+          "english_name": "French",
+          "iso_639_1": "fr",
+          "name": "Français"
+        },
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Only monsters play God.",
+      "title": "Frankenstein",
+      "video": false,
+      "vote_average": 7.873,
+      "vote_count": 1322
+    },
+    {
+      "id": "1062722",
+      "adult": false,
+      "backdrop_path": "/hpXBJxLD2SEf8l2CspmSeiHrBKX.jpg",
+      "belongs_to_collection": null,
+      "budget": 120000000,
+      "genres": [
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 27,
+          "name": "Horror"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        }
+      ],
+      "homepage": "https://www.frankensteingdt.com",
+      "imdb_id": "tt1312221",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Frankenstein",
+      "overview": "Dr. Victor Frankenstein, a brilliant but egotistical scientist, brings a creature to life in a monstrous experiment that ultimately leads to the undoing of both the creator and his tragic creation.",
+      "popularity": 736.4639,
+      "poster_path": "/g4JtvGlQO7DByTI6frUobqvSL3R.jpg",
+      "production_companies": [
+        {
+          "id": 101082,
+          "logo_path": "/zjAYU6sUmYaeFeJ1yWeaqzsWAz8.png",
+          "name": "Double Dare You",
+          "origin_country": "US"
+        },
+        {
+          "id": 10678,
+          "logo_path": null,
+          "name": "Demilo Films",
+          "origin_country": "CA"
+        },
+        {
+          "id": 279898,
+          "logo_path": null,
+          "name": "Bluegrass 7",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        },
+        {
+          "iso_3166_1": "CA",
+          "name": "Canada"
+        }
+      ],
+      "release_date": "2025-10-17",
+      "revenue": 144496,
+      "runtime": 150,
+      "spoken_languages": [
+        {
+          "english_name": "Danish",
+          "iso_639_1": "da",
+          "name": "Dansk"
+        },
+        {
+          "english_name": "French",
+          "iso_639_1": "fr",
+          "name": "Français"
+        },
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Only monsters play God.",
+      "title": "Frankenstein",
+      "video": false,
+      "vote_average": 7.873,
+      "vote_count": 1322
+    },
+    {
+      "id": "603692",
+      "adult": false,
+      "backdrop_path": "/7I6VUdPj6tQECNHdviJkUHD2u89.jpg",
+      "belongs_to_collection": {
+        "id": 404609,
+        "name": "John Wick Collection",
+        "poster_path": "/sm7rZZivZm2NhJDucFf3gpfFdVt.jpg",
+        "backdrop_path": "/fSwYa5q2xRkBoOOjueLpkLf3N1m.jpg"
+      },
+      "budget": 100000000,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        }
+      ],
+      "homepage": "https://johnwick.movie/film/john-wick-4",
+      "imdb_id": "tt10366206",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "John Wick: Chapter 4",
+      "overview": "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+      "popularity": 15.4746,
+      "poster_path": "/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+      "production_companies": [
+        {
+          "id": 3528,
+          "logo_path": "/cCzCClIzIh81Fa79hpW5nXoUsHK.png",
+          "name": "Thunder Road",
+          "origin_country": "US"
+        },
+        {
+          "id": 23008,
+          "logo_path": "/5SarYupipdiejsEqUkwu1SpYfru.png",
+          "name": "87Eleven",
+          "origin_country": "US"
+        },
+        {
+          "id": 264,
+          "logo_path": "/fA90qwUKgPhMONqtwY60GaHRyrW.png",
+          "name": "Studio Babelsberg",
+          "origin_country": "DE"
+        },
+        {
+          "id": 1632,
+          "logo_path": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+          "name": "Lionsgate",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "DE",
+          "name": "Germany"
+        },
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2023-03-22",
+      "revenue": 440157245,
+      "runtime": 170,
+      "spoken_languages": [
+        {
+          "english_name": "Arabic",
+          "iso_639_1": "ar",
+          "name": "العربية"
+        },
+        {
+          "english_name": "Cantonese",
+          "iso_639_1": "cn",
+          "name": "广州话 / 廣州話"
+        },
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        },
+        {
+          "english_name": "French",
+          "iso_639_1": "fr",
+          "name": "Français"
+        },
+        {
+          "english_name": "German",
+          "iso_639_1": "de",
+          "name": "Deutsch"
+        },
+        {
+          "english_name": "Japanese",
+          "iso_639_1": "ja",
+          "name": "日本語"
+        },
+        {
+          "english_name": "Latin",
+          "iso_639_1": "la",
+          "name": "Latin"
+        },
+        {
+          "english_name": "Russian",
+          "iso_639_1": "ru",
+          "name": "Pусский"
+        },
+        {
+          "english_name": "Spanish",
+          "iso_639_1": "es",
+          "name": "Español"
+        }
+      ],
+      "status": "Released",
+      "tagline": "No way back, one way out.",
+      "title": "John Wick: Chapter 4",
+      "video": false,
+      "vote_average": 7.716,
+      "vote_count": 7474
+    },
+    {
+      "id": "603692",
+      "adult": false,
+      "backdrop_path": "/7I6VUdPj6tQECNHdviJkUHD2u89.jpg",
+      "belongs_to_collection": {
+        "id": 404609,
+        "name": "John Wick Collection",
+        "poster_path": "/sm7rZZivZm2NhJDucFf3gpfFdVt.jpg",
+        "backdrop_path": "/fSwYa5q2xRkBoOOjueLpkLf3N1m.jpg"
+      },
+      "budget": 100000000,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        }
+      ],
+      "homepage": "https://johnwick.movie/film/john-wick-4",
+      "imdb_id": "tt10366206",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "John Wick: Chapter 4",
+      "overview": "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+      "popularity": 15.4746,
+      "poster_path": "/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+      "production_companies": [
+        {
+          "id": 3528,
+          "logo_path": "/cCzCClIzIh81Fa79hpW5nXoUsHK.png",
+          "name": "Thunder Road",
+          "origin_country": "US"
+        },
+        {
+          "id": 23008,
+          "logo_path": "/5SarYupipdiejsEqUkwu1SpYfru.png",
+          "name": "87Eleven",
+          "origin_country": "US"
+        },
+        {
+          "id": 264,
+          "logo_path": "/fA90qwUKgPhMONqtwY60GaHRyrW.png",
+          "name": "Studio Babelsberg",
+          "origin_country": "DE"
+        },
+        {
+          "id": 1632,
+          "logo_path": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+          "name": "Lionsgate",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "DE",
+          "name": "Germany"
+        },
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2023-03-22",
+      "revenue": 440157245,
+      "runtime": 170,
+      "spoken_languages": [
+        {
+          "english_name": "Arabic",
+          "iso_639_1": "ar",
+          "name": "العربية"
+        },
+        {
+          "english_name": "Cantonese",
+          "iso_639_1": "cn",
+          "name": "广州话 / 廣州話"
+        },
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        },
+        {
+          "english_name": "French",
+          "iso_639_1": "fr",
+          "name": "Français"
+        },
+        {
+          "english_name": "German",
+          "iso_639_1": "de",
+          "name": "Deutsch"
+        },
+        {
+          "english_name": "Japanese",
+          "iso_639_1": "ja",
+          "name": "日本語"
+        },
+        {
+          "english_name": "Latin",
+          "iso_639_1": "la",
+          "name": "Latin"
+        },
+        {
+          "english_name": "Russian",
+          "iso_639_1": "ru",
+          "name": "Pусский"
+        },
+        {
+          "english_name": "Spanish",
+          "iso_639_1": "es",
+          "name": "Español"
+        }
+      ],
+      "status": "Released",
+      "tagline": "No way back, one way out.",
+      "title": "John Wick: Chapter 4",
+      "video": false,
+      "vote_average": 7.716,
+      "vote_count": 7474
+    },
+    {
+      "id": "1539104",
+      "adult": false,
+      "backdrop_path": "/gtKglOSEq3d4MgQE4VsrT1sRkd0.jpg",
+      "belongs_to_collection": {
+        "id": 1529614,
+        "name": "Jujutsu Kaisen Collection",
+        "poster_path": "/p0ovqf0VB8TCb3nL7if2kSfBMmg.jpg",
+        "backdrop_path": "/wa3t5d9antb8arhLbkeODw7CsmU.jpg"
+      },
+      "budget": 0,
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        }
+      ],
+      "homepage": "https://gkids.com/films/jujutsu-kaisen-execution",
+      "imdb_id": "tt38121182",
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_title": "劇場版 呪術廻戦「渋谷事変 特別編集版」×「死滅回游 先行上映」",
+      "overview": "A veil abruptly descends over the busy Shibuya area amid the bustling Halloween crowds, trapping countless civilians inside. Satoru Gojo, the strongest jujutsu sorcerer, steps into the chaos. But lying in wait are curse users and spirits scheming to seal him away. Yuji Itadori, accompanied by his classmates and other top-tier jujutsu sorcerers, enters the fray in an unprecedented clash of curses — the Shibuya Incident. In the aftermath, ten colonies across Japan are transformed into dens of curses in a plan orchestrated by Noritoshi Kamo. As the deadly Culling Game starts, Special Grade sorcerer Yuta Okkotsu is assigned to carry out Yuji's execution for his perceived crimes. A compilation movie of Shibuya Incident including the first two episodes of the Culling Games arc.",
+      "popularity": 133.644,
+      "poster_path": "/tc7RrVW5FGvyO2tsgW6LIN1esHI.jpg",
+      "production_companies": [
+        {
+          "id": 21444,
+          "logo_path": "/wSejGn3lAZdQ5muByxvzigwyDY6.png",
+          "name": "MAPPA",
+          "origin_country": "JP"
+        },
+        {
+          "id": 882,
+          "logo_path": "/fRSWWjquvzcHjACbtF53utZFIll.png",
+          "name": "TOHO",
+          "origin_country": "JP"
+        },
+        {
+          "id": 3363,
+          "logo_path": "/sj3vD7n63bTCih7bcf6GnWvRf1Q.png",
+          "name": "MBS",
+          "origin_country": "JP"
+        },
+        {
+          "id": 2918,
+          "logo_path": "/gyEWUBWwqrm3H5T2hkERD9LxpOq.png",
+          "name": "Shueisha",
+          "origin_country": "JP"
+        },
+        {
+          "id": 158200,
+          "logo_path": "/rf4ZArxPuqx5hdeU7rPIU8IQlYx.png",
+          "name": "Sumzap",
+          "origin_country": "JP"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "JP",
+          "name": "Japan"
+        }
+      ],
+      "release_date": "2025-11-07",
+      "revenue": 0,
+      "runtime": 88,
+      "spoken_languages": [
+        {
+          "english_name": "Japanese",
+          "iso_639_1": "ja",
+          "name": "日本語"
+        }
+      ],
+      "status": "Released",
+      "tagline": "The Chaos of Curses, Shibuya, and Beyond—",
+      "title": "JUJUTSU KAISEN: Execution -Shibuya Incident x The Culling Game Begins-",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "id": "1539104",
+      "adult": false,
+      "backdrop_path": "/gtKglOSEq3d4MgQE4VsrT1sRkd0.jpg",
+      "belongs_to_collection": {
+        "id": 1529614,
+        "name": "Jujutsu Kaisen Collection",
+        "poster_path": "/p0ovqf0VB8TCb3nL7if2kSfBMmg.jpg",
+        "backdrop_path": "/wa3t5d9antb8arhLbkeODw7CsmU.jpg"
+      },
+      "budget": 0,
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        }
+      ],
+      "homepage": "https://gkids.com/films/jujutsu-kaisen-execution",
+      "imdb_id": "tt38121182",
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_title": "劇場版 呪術廻戦「渋谷事変 特別編集版」×「死滅回游 先行上映」",
+      "overview": "A veil abruptly descends over the busy Shibuya area amid the bustling Halloween crowds, trapping countless civilians inside. Satoru Gojo, the strongest jujutsu sorcerer, steps into the chaos. But lying in wait are curse users and spirits scheming to seal him away. Yuji Itadori, accompanied by his classmates and other top-tier jujutsu sorcerers, enters the fray in an unprecedented clash of curses — the Shibuya Incident. In the aftermath, ten colonies across Japan are transformed into dens of curses in a plan orchestrated by Noritoshi Kamo. As the deadly Culling Game starts, Special Grade sorcerer Yuta Okkotsu is assigned to carry out Yuji's execution for his perceived crimes. A compilation movie of Shibuya Incident including the first two episodes of the Culling Games arc.",
+      "popularity": 133.644,
+      "poster_path": "/tc7RrVW5FGvyO2tsgW6LIN1esHI.jpg",
+      "production_companies": [
+        {
+          "id": 21444,
+          "logo_path": "/wSejGn3lAZdQ5muByxvzigwyDY6.png",
+          "name": "MAPPA",
+          "origin_country": "JP"
+        },
+        {
+          "id": 882,
+          "logo_path": "/fRSWWjquvzcHjACbtF53utZFIll.png",
+          "name": "TOHO",
+          "origin_country": "JP"
+        },
+        {
+          "id": 3363,
+          "logo_path": "/sj3vD7n63bTCih7bcf6GnWvRf1Q.png",
+          "name": "MBS",
+          "origin_country": "JP"
+        },
+        {
+          "id": 2918,
+          "logo_path": "/gyEWUBWwqrm3H5T2hkERD9LxpOq.png",
+          "name": "Shueisha",
+          "origin_country": "JP"
+        },
+        {
+          "id": 158200,
+          "logo_path": "/rf4ZArxPuqx5hdeU7rPIU8IQlYx.png",
+          "name": "Sumzap",
+          "origin_country": "JP"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "JP",
+          "name": "Japan"
+        }
+      ],
+      "release_date": "2025-11-07",
+      "revenue": 0,
+      "runtime": 88,
+      "spoken_languages": [
+        {
+          "english_name": "Japanese",
+          "iso_639_1": "ja",
+          "name": "日本語"
+        }
+      ],
+      "status": "Released",
+      "tagline": "The Chaos of Curses, Shibuya, and Beyond—",
+      "title": "JUJUTSU KAISEN: Execution -Shibuya Incident x The Culling Game Begins-",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "id": "1248226",
+      "adult": false,
+      "backdrop_path": "/5lQ4euO30sDin5nCifvi0vURFNd.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 10751,
+          "name": "Family"
+        }
+      ],
+      "homepage": "https://www.amazon.com/gp/video/detail/B0FQ1MCFKJ",
+      "imdb_id": "tt31425731",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Playdate",
+      "overview": "When out-of-work accountant Brian joins stay-at-home dad Jeff for a playdate with their sons, he expects a laid-back afternoon. Instead, they're chased by mercenaries, and Brian—totally unprepared—must survive one absurd obstacle after another.",
+      "popularity": 417.0737,
+      "poster_path": "/fGodXWqJkkkbSebPIlxLSygV8GY.jpg",
+      "production_companies": [
+        {
+          "id": 110723,
+          "logo_path": "/27Od860h9Xc7gDS3Pph6yRlUyBI.png",
+          "name": "Nickel City Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 28787,
+          "logo_path": null,
+          "name": "Wide Awake Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 221397,
+          "logo_path": "/pfhFwisBqJGN0V3OKFvDHcOQ8Om.png",
+          "name": "A Higher Standard",
+          "origin_country": "US"
+        },
+        {
+          "id": 215935,
+          "logo_path": "/pYh0UKZbx8WGKLDZuBkq7WwvGSH.png",
+          "name": "Gramercy Park Media",
+          "origin_country": "US"
+        },
+        {
+          "id": 55446,
+          "logo_path": "/zi63Cmjvx06eELmmduPBDRyP135.png",
+          "name": "Arcana Studio",
+          "origin_country": "CA"
+        },
+        {
+          "id": 376,
+          "logo_path": "/4TYjUVu74lX3r4ht1ppZxEpj1a4.png",
+          "name": "Industry Entertainment Partners",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        },
+        {
+          "iso_3166_1": "CA",
+          "name": "Canada"
+        }
+      ],
+      "release_date": "2025-11-05",
+      "revenue": 0,
+      "runtime": 95,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Playtime just got real.",
+      "title": "Playdate",
+      "video": false,
+      "vote_average": 6.615,
+      "vote_count": 157
+    },
+    {
+      "id": "1248226",
+      "adult": false,
+      "backdrop_path": "/5lQ4euO30sDin5nCifvi0vURFNd.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 10751,
+          "name": "Family"
+        }
+      ],
+      "homepage": "https://www.amazon.com/gp/video/detail/B0FQ1MCFKJ",
+      "imdb_id": "tt31425731",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Playdate",
+      "overview": "When out-of-work accountant Brian joins stay-at-home dad Jeff for a playdate with their sons, he expects a laid-back afternoon. Instead, they're chased by mercenaries, and Brian—totally unprepared—must survive one absurd obstacle after another.",
+      "popularity": 417.0737,
+      "poster_path": "/fGodXWqJkkkbSebPIlxLSygV8GY.jpg",
+      "production_companies": [
+        {
+          "id": 110723,
+          "logo_path": "/27Od860h9Xc7gDS3Pph6yRlUyBI.png",
+          "name": "Nickel City Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 28787,
+          "logo_path": null,
+          "name": "Wide Awake Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 221397,
+          "logo_path": "/pfhFwisBqJGN0V3OKFvDHcOQ8Om.png",
+          "name": "A Higher Standard",
+          "origin_country": "US"
+        },
+        {
+          "id": 215935,
+          "logo_path": "/pYh0UKZbx8WGKLDZuBkq7WwvGSH.png",
+          "name": "Gramercy Park Media",
+          "origin_country": "US"
+        },
+        {
+          "id": 55446,
+          "logo_path": "/zi63Cmjvx06eELmmduPBDRyP135.png",
+          "name": "Arcana Studio",
+          "origin_country": "CA"
+        },
+        {
+          "id": 376,
+          "logo_path": "/4TYjUVu74lX3r4ht1ppZxEpj1a4.png",
+          "name": "Industry Entertainment Partners",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        },
+        {
+          "iso_3166_1": "CA",
+          "name": "Canada"
+        }
+      ],
+      "release_date": "2025-11-05",
+      "revenue": 0,
+      "runtime": 95,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Playtime just got real.",
+      "title": "Playdate",
+      "video": false,
+      "vote_average": 6.615,
+      "vote_count": 157
+    }
+  ]
+}
