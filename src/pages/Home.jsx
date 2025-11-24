@@ -24,7 +24,7 @@ export default function Home() {
   const bannerMovie = popular.length > 0 ? popular[0] : null;
 
   return (
-    <div className="pt-20">
+    <div className="pt-20 bg-[#0b0213]">
 
       {/* ------------------ BANNER ------------------ */}
       {bannerMovie && (
@@ -53,14 +53,14 @@ export default function Home() {
             </div>
           </div>
           <button
-  onClick={() =>
-    addToWatchlist(popular[0])
-      .then(r => alert(r.status === "added" ? "Added!" : "Already added"))
-  }
-  className="bg-white text-black px-6 py-2 rounded-md hover:bg-gray-200"
->
-  ➕ My List
-</button>
+          onClick={() =>
+            addToWatchlist(popular[0])
+              .then(r => alert(r.status === "added" ? "Added!" : "Already added"))
+          }
+          className="bg-white text-black px-6 py-2 rounded-md hover:bg-gray-200"
+        >
+          ➕ My List
+        </button>
 
         </div>
       )}

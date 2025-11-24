@@ -30,18 +30,25 @@
   ],
   "watchlist": [
     {
-      "id": "faa8",
-      "tmdb_id": 1539104,
-      "title": "JUJUTSU KAISEN: Execution -Shibuya Incident x The Culling Game Begins-",
-      "poster_path": "/tc7RrVW5FGvyO2tsgW6LIN1esHI.jpg",
-      "vote_average": 0
+      "id": "f6ba",
+      "tmdb_id": 1242898,
+      "title": "Predator: Badlands",
+      "poster_path": "/ef2QSeBkrYhAdfsWGXmp0lvH0T1.jpg",
+      "vote_average": 7.411
     },
     {
-      "id": "475a",
-      "tmdb_id": 1311031,
-      "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
-      "poster_path": "/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg",
-      "vote_average": 7.797
+      "id": "8c97",
+      "tmdb_id": "1062722",
+      "title": "Frankenstein",
+      "poster_path": "/g4JtvGlQO7DByTI6frUobqvSL3R.jpg",
+      "vote_average": 7.873
+    },
+    {
+      "id": "b2c8",
+      "tmdb_id": 967941,
+      "title": "Wicked: For Good",
+      "poster_path": "/si9tolnefLSUKaqQEGz1bWArOaL.jpg",
+      "vote_average": 6.744
     }
   ],
   "movie_cache": [
@@ -1156,6 +1163,1200 @@
       "video": false,
       "vote_average": 6.615,
       "vote_count": 157
+    },
+    {
+      "id": "1218925",
+      "adult": false,
+      "backdrop_path": "/gqTz24ZRsCP6AKjARmEivY7m0cK.jpg",
+      "belongs_to_collection": null,
+      "budget": 4100000,
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 10749,
+          "name": "Romance"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        }
+      ],
+      "homepage": "https://chainsawman.movie",
+      "imdb_id": "tt30472557",
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_title": "チェンソーマン レゼ篇",
+      "overview": "In a brutal war between devils, hunters, and secret enemies, a mysterious girl named Reze has stepped into Denji's world, and he faces his deadliest battle yet, fueled by love in a world where survival knows no rules.",
+      "popularity": 131.2585,
+      "poster_path": "/xdzLBZjCVSEsic7m7nJc4jNJZVW.jpg",
+      "production_companies": [
+        {
+          "id": 21444,
+          "logo_path": "/wSejGn3lAZdQ5muByxvzigwyDY6.png",
+          "name": "MAPPA",
+          "origin_country": "JP"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "JP",
+          "name": "Japan"
+        }
+      ],
+      "release_date": "2025-09-19",
+      "revenue": 168300000,
+      "runtime": 100,
+      "spoken_languages": [
+        {
+          "english_name": "Japanese",
+          "iso_639_1": "ja",
+          "name": "日本語"
+        }
+      ],
+      "status": "Released",
+      "tagline": "everyone’s after my chainsaw heart! what about denji’s heart?!?",
+      "title": "Chainsaw Man - The Movie: Reze Arc",
+      "video": false,
+      "vote_average": 7.795,
+      "vote_count": 207
+    },
+    {
+      "id": "1218925",
+      "adult": false,
+      "backdrop_path": "/gqTz24ZRsCP6AKjARmEivY7m0cK.jpg",
+      "belongs_to_collection": null,
+      "budget": 4100000,
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 10749,
+          "name": "Romance"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        }
+      ],
+      "homepage": "https://chainsawman.movie",
+      "imdb_id": "tt30472557",
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_title": "チェンソーマン レゼ篇",
+      "overview": "In a brutal war between devils, hunters, and secret enemies, a mysterious girl named Reze has stepped into Denji's world, and he faces his deadliest battle yet, fueled by love in a world where survival knows no rules.",
+      "popularity": 131.2585,
+      "poster_path": "/xdzLBZjCVSEsic7m7nJc4jNJZVW.jpg",
+      "production_companies": [
+        {
+          "id": 21444,
+          "logo_path": "/wSejGn3lAZdQ5muByxvzigwyDY6.png",
+          "name": "MAPPA",
+          "origin_country": "JP"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "JP",
+          "name": "Japan"
+        }
+      ],
+      "release_date": "2025-09-19",
+      "revenue": 168300000,
+      "runtime": 100,
+      "spoken_languages": [
+        {
+          "english_name": "Japanese",
+          "iso_639_1": "ja",
+          "name": "日本語"
+        }
+      ],
+      "status": "Released",
+      "tagline": "everyone’s after my chainsaw heart! what about denji’s heart?!?",
+      "title": "Chainsaw Man - The Movie: Reze Arc",
+      "video": false,
+      "vote_average": 7.795,
+      "vote_count": 207
+    },
+    {
+      "id": "1242898",
+      "adult": false,
+      "backdrop_path": "/ebyxeBh56QNXxSJgTnmz7fXAlwk.jpg",
+      "belongs_to_collection": {
+        "id": 399,
+        "name": "Predator Collection",
+        "poster_path": "/mm2t5dd1QFxtX6X56Z9U5ucsIb1.jpg",
+        "backdrop_path": "/u1CTqTYRUVyLwlEd1z1VJrVBp0J.jpg"
+      },
+      "budget": 105000000,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        }
+      ],
+      "homepage": "https://www.20thcenturystudios.com/movies/predator-badlands",
+      "imdb_id": "tt31227572",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Predator: Badlands",
+      "overview": "Cast out from his clan, a young Predator finds an unlikely ally in a damaged android and embarks on a treacherous journey in search of the ultimate adversary.",
+      "popularity": 242.3671,
+      "poster_path": "/ef2QSeBkrYhAdfsWGXmp0lvH0T1.jpg",
+      "production_companies": [
+        {
+          "id": 127928,
+          "logo_path": "/h0rjX5vjW5r8yEnUBStFarjcLT4.png",
+          "name": "20th Century Studios",
+          "origin_country": "US"
+        },
+        {
+          "id": 840,
+          "logo_path": null,
+          "name": "Lawrence Gordon Productions",
+          "origin_country": "US"
+        },
+        {
+          "id": 1302,
+          "logo_path": "/zC3b70ixHh89qJIikLQPEvLqbPM.png",
+          "name": "Davis Entertainment",
+          "origin_country": "US"
+        },
+        {
+          "id": 185309,
+          "logo_path": null,
+          "name": "Toberoff Productions",
+          "origin_country": "US"
+        },
+        {
+          "id": 22213,
+          "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+          "name": "TSG Entertainment",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2025-11-05",
+      "revenue": 136304860,
+      "runtime": 107,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "First hunt. Last chance.",
+      "title": "Predator: Badlands",
+      "video": false,
+      "vote_average": 7.411,
+      "vote_count": 378
+    },
+    {
+      "id": "1242898",
+      "adult": false,
+      "backdrop_path": "/ebyxeBh56QNXxSJgTnmz7fXAlwk.jpg",
+      "belongs_to_collection": {
+        "id": 399,
+        "name": "Predator Collection",
+        "poster_path": "/mm2t5dd1QFxtX6X56Z9U5ucsIb1.jpg",
+        "backdrop_path": "/u1CTqTYRUVyLwlEd1z1VJrVBp0J.jpg"
+      },
+      "budget": 105000000,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        }
+      ],
+      "homepage": "https://www.20thcenturystudios.com/movies/predator-badlands",
+      "imdb_id": "tt31227572",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Predator: Badlands",
+      "overview": "Cast out from his clan, a young Predator finds an unlikely ally in a damaged android and embarks on a treacherous journey in search of the ultimate adversary.",
+      "popularity": 242.3671,
+      "poster_path": "/ef2QSeBkrYhAdfsWGXmp0lvH0T1.jpg",
+      "production_companies": [
+        {
+          "id": 127928,
+          "logo_path": "/h0rjX5vjW5r8yEnUBStFarjcLT4.png",
+          "name": "20th Century Studios",
+          "origin_country": "US"
+        },
+        {
+          "id": 840,
+          "logo_path": null,
+          "name": "Lawrence Gordon Productions",
+          "origin_country": "US"
+        },
+        {
+          "id": 1302,
+          "logo_path": "/zC3b70ixHh89qJIikLQPEvLqbPM.png",
+          "name": "Davis Entertainment",
+          "origin_country": "US"
+        },
+        {
+          "id": 185309,
+          "logo_path": null,
+          "name": "Toberoff Productions",
+          "origin_country": "US"
+        },
+        {
+          "id": 22213,
+          "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+          "name": "TSG Entertainment",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2025-11-05",
+      "revenue": 136304860,
+      "runtime": 107,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "First hunt. Last chance.",
+      "title": "Predator: Badlands",
+      "video": false,
+      "vote_average": 7.411,
+      "vote_count": 378
+    },
+    {
+      "id": "1117857",
+      "adult": false,
+      "backdrop_path": "/pU9cz8mZjzwyPAcJDPXBlK99BoR.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 10751,
+          "name": "Family"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        }
+      ],
+      "homepage": "https://www.netflix.com/title/80992977",
+      "imdb_id": "tt27604215",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "In Your Dreams",
+      "overview": "Stevie and her little brother Elliot journey into the wildly absurd landscape of their own dreams to ask the Sandman to grant them the perfect family.",
+      "popularity": 107.0771,
+      "poster_path": "/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
+      "production_companies": [
+        {
+          "id": 144322,
+          "logo_path": "/j49TVLRW8E8Rqv5UEu5NqO50J8a.png",
+          "name": "Kuku Studios",
+          "origin_country": "US"
+        },
+        {
+          "id": 171251,
+          "logo_path": "/AqUAfMC270bGGK09Nh3mycwT1hY.png",
+          "name": "Netflix Animation Studios",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2025-11-07",
+      "revenue": 0,
+      "runtime": 87,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "The adventure of a nighttime.",
+      "title": "In Your Dreams",
+      "video": false,
+      "vote_average": 7.159,
+      "vote_count": 69
+    },
+    {
+      "id": "1117857",
+      "adult": false,
+      "backdrop_path": "/pU9cz8mZjzwyPAcJDPXBlK99BoR.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 10751,
+          "name": "Family"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        }
+      ],
+      "homepage": "https://www.netflix.com/title/80992977",
+      "imdb_id": "tt27604215",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "In Your Dreams",
+      "overview": "Stevie and her little brother Elliot journey into the wildly absurd landscape of their own dreams to ask the Sandman to grant them the perfect family.",
+      "popularity": 107.0771,
+      "poster_path": "/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
+      "production_companies": [
+        {
+          "id": 144322,
+          "logo_path": "/j49TVLRW8E8Rqv5UEu5NqO50J8a.png",
+          "name": "Kuku Studios",
+          "origin_country": "US"
+        },
+        {
+          "id": 171251,
+          "logo_path": "/AqUAfMC270bGGK09Nh3mycwT1hY.png",
+          "name": "Netflix Animation Studios",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2025-11-07",
+      "revenue": 0,
+      "runtime": 87,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "The adventure of a nighttime.",
+      "title": "In Your Dreams",
+      "video": false,
+      "vote_average": 7.159,
+      "vote_count": 69
+    },
+    {
+      "id": 967941,
+      "adult": false,
+      "backdrop_path": "/l8pwO23MCvqYumzozpxynCNfck1.jpg",
+      "belongs_to_collection": {
+        "id": 968080,
+        "name": "Wicked Collection",
+        "poster_path": "/b9xo966oVIrFtpevhLQ9XILcXTh.jpg",
+        "backdrop_path": "/sppXb6E4BlKfZs0RgtlzMbVTZQ6.jpg"
+      },
+      "budget": 150000000,
+      "genres": [
+        {
+          "id": 10749,
+          "name": "Romance"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        }
+      ],
+      "homepage": "https://www.wickedmovie.com",
+      "imdb_id": "tt19847976",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Wicked: For Good",
+      "overview": "As an angry mob rises against the Wicked Witch, Glinda and Elphaba will need to come together one final time. With their singular friendship now the fulcrum of their futures, they will need to truly see each other, with honesty and empathy, if they are to change themselves, and all of Oz, for good.",
+      "popularity": 224.8457,
+      "poster_path": "/si9tolnefLSUKaqQEGz1bWArOaL.jpg",
+      "production_companies": [
+        {
+          "id": 33,
+          "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+          "name": "Universal Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 2527,
+          "logo_path": "/mNSqvPrlkAcdQlEZ3Ttmx75Z8Xw.png",
+          "name": "Marc Platt Productions",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2025-11-19",
+      "revenue": 226042000,
+      "runtime": 137,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "You will be changed.",
+      "title": "Wicked: For Good",
+      "video": false,
+      "vote_average": 6.702,
+      "vote_count": 191
+    },
+    {
+      "id": 967941,
+      "adult": false,
+      "backdrop_path": "/l8pwO23MCvqYumzozpxynCNfck1.jpg",
+      "belongs_to_collection": {
+        "id": 968080,
+        "name": "Wicked Collection",
+        "poster_path": "/b9xo966oVIrFtpevhLQ9XILcXTh.jpg",
+        "backdrop_path": "/sppXb6E4BlKfZs0RgtlzMbVTZQ6.jpg"
+      },
+      "budget": 150000000,
+      "genres": [
+        {
+          "id": 10749,
+          "name": "Romance"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        }
+      ],
+      "homepage": "https://www.wickedmovie.com",
+      "imdb_id": "tt19847976",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Wicked: For Good",
+      "overview": "As an angry mob rises against the Wicked Witch, Glinda and Elphaba will need to come together one final time. With their singular friendship now the fulcrum of their futures, they will need to truly see each other, with honesty and empathy, if they are to change themselves, and all of Oz, for good.",
+      "popularity": 224.8457,
+      "poster_path": "/si9tolnefLSUKaqQEGz1bWArOaL.jpg",
+      "production_companies": [
+        {
+          "id": 33,
+          "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+          "name": "Universal Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 2527,
+          "logo_path": "/mNSqvPrlkAcdQlEZ3Ttmx75Z8Xw.png",
+          "name": "Marc Platt Productions",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2025-11-19",
+      "revenue": 226042000,
+      "runtime": 137,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "You will be changed.",
+      "title": "Wicked: For Good",
+      "video": false,
+      "vote_average": 6.702,
+      "vote_count": 191
+    },
+    {
+      "id": 278,
+      "adult": false,
+      "backdrop_path": "/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg",
+      "belongs_to_collection": null,
+      "budget": 25000000,
+      "genres": [
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt0111161",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "The Shawshank Redemption",
+      "overview": "Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+      "popularity": 27.4741,
+      "poster_path": "/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+      "production_companies": [
+        {
+          "id": 97,
+          "logo_path": "/qv3ih9pR9w2XNKZDsqDqAGuZjqc.png",
+          "name": "Castle Rock Entertainment",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "1994-09-23",
+      "revenue": 28341469,
+      "runtime": 142,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Fear can hold you prisoner. Hope can set you free.",
+      "title": "The Shawshank Redemption",
+      "video": false,
+      "vote_average": 8.712,
+      "vote_count": 29250
+    },
+    {
+      "id": 278,
+      "adult": false,
+      "backdrop_path": "/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg",
+      "belongs_to_collection": null,
+      "budget": 25000000,
+      "genres": [
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt0111161",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "The Shawshank Redemption",
+      "overview": "Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+      "popularity": 27.4741,
+      "poster_path": "/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+      "production_companies": [
+        {
+          "id": 97,
+          "logo_path": "/qv3ih9pR9w2XNKZDsqDqAGuZjqc.png",
+          "name": "Castle Rock Entertainment",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "1994-09-23",
+      "revenue": 28341469,
+      "runtime": 142,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Fear can hold you prisoner. Hope can set you free.",
+      "title": "The Shawshank Redemption",
+      "video": false,
+      "vote_average": 8.712,
+      "vote_count": 29250
+    },
+    {
+      "id": 1434735,
+      "adult": false,
+      "backdrop_path": null,
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": null,
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_title": "おカマ白書",
+      "overview": "Straight college student Shinya Okama gets a job at an okama bar – a cross-dressing gay bar. He falls in love with a college girl he meets there, and attempts to get closer to her while concealing the truth of his identity.",
+      "popularity": 0.7518,
+      "poster_path": "/pQcIs2YUW92uxmO9ECExLgkyC9Y.jpg",
+      "production_companies": [
+        {
+          "id": 154819,
+          "logo_path": null,
+          "name": "Knack Productions",
+          "origin_country": ""
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "JP",
+          "name": "Japan"
+        }
+      ],
+      "release_date": "1991-03-12",
+      "revenue": 0,
+      "runtime": 130,
+      "spoken_languages": [
+        {
+          "english_name": "Japanese",
+          "iso_639_1": "ja",
+          "name": "日本語"
+        }
+      ],
+      "status": "Released",
+      "tagline": "",
+      "title": "Okama Report",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "id": 28609,
+      "adult": false,
+      "backdrop_path": "/wvneAN9gJSVS3HwnGpEBdv9zOlO.jpg",
+      "belongs_to_collection": {
+        "id": 425164,
+        "name": "Dragon Ball Z Collection",
+        "poster_path": "/2VMZ1zRFPnUQtQp5K4WRXvDYBjh.jpg",
+        "backdrop_path": "/7PcbijxTfwi9vjWEfXdS0ReAw8q.jpg"
+      },
+      "budget": 0,
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt0142235",
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_title": "ドラゴンボールＺ オラの悟飯をかえせッ!!",
+      "overview": "In order to wish for immortality and avenge his father, Garlic Jr. collects the dragon balls, kidnapping Goku's son Gohan in the process. Goku, Kami, Piccolo, and Krillin unite to rescue Gohan and save the world from being sucked into a dead zone.",
+      "popularity": 3.1076,
+      "poster_path": "/ywtyEDTM2YO7qod7USNNwhrAfvA.jpg",
+      "production_companies": [
+        {
+          "id": 5542,
+          "logo_path": "/ayE4LIqoAWotavo7xdvYngwqGML.png",
+          "name": "Toei Animation",
+          "origin_country": "JP"
+        },
+        {
+          "id": 5822,
+          "logo_path": "/qyTbRgCyU9NLKvKaiQVbadtr7RY.png",
+          "name": "Toei Company",
+          "origin_country": "JP"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "JP",
+          "name": "Japan"
+        }
+      ],
+      "release_date": "1989-07-15",
+      "revenue": 9060335,
+      "runtime": 41,
+      "spoken_languages": [
+        {
+          "english_name": "Japanese",
+          "iso_639_1": "ja",
+          "name": "日本語"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Pray for those who took him.",
+      "title": "Dragon Ball Z: Dead Zone",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 590
+    },
+    {
+      "id": 27837,
+      "adult": false,
+      "backdrop_path": "/kIVYUyggH4PeajI2WS68qprCtuD.jpg",
+      "belongs_to_collection": {
+        "id": 213276,
+        "name": "Mobile Suit Gundam 00 Special Edition Collection",
+        "poster_path": "/sF9MTqs1uYJ1Cvg32YJTVc1rXRr.jpg",
+        "backdrop_path": "/v5TAeJ7eHyG2b8jMjZ0KwpWcM07.jpg"
+      },
+      "budget": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 10752,
+          "name": "War"
+        },
+        {
+          "id": 16,
+          "name": "Animation"
+        }
+      ],
+      "homepage": "http://www.gundam00.net/",
+      "imdb_id": "tt3744082",
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_title": "機動戦士ガンダム00 スペシャルエディションII エンド・オブ・ワールド",
+      "overview": "Like the Japanese Special Editions of other Gundam and Sunrise anime series, this is the second of three volumes, that will condense the first half of the second season of Gundam 00 into feature-length videos. They all feature some new animated sequences and some partially re-recorded dialogue.",
+      "popularity": 2.5707,
+      "poster_path": "/36QLvuh0MDgeSUA6904r60mR5Xc.jpg",
+      "production_companies": [
+        {
+          "id": 3153,
+          "logo_path": "/yKZ9UarLSu9Y4Gpw33nKRQOPM7z.png",
+          "name": "SUNRISE",
+          "origin_country": "JP"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "JP",
+          "name": "Japan"
+        }
+      ],
+      "release_date": "2009-12-23",
+      "revenue": 0,
+      "runtime": 100,
+      "spoken_languages": [
+        {
+          "english_name": "Japanese",
+          "iso_639_1": "ja",
+          "name": "日本語"
+        }
+      ],
+      "status": "Released",
+      "tagline": "",
+      "title": "Mobile Suit Gundam 00 Special Edition II: End of World",
+      "video": false,
+      "vote_average": 6.2,
+      "vote_count": 6
+    },
+    {
+      "id": 459919,
+      "adult": false,
+      "backdrop_path": "/nbuynAFMVVGRAWqEYTasKv2cHKn.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt5009976",
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_title": "ゴンドラ",
+      "overview": "A short movie about a guy living in his own world.",
+      "popularity": 0.3137,
+      "poster_path": "/31ks5SKcHPInFvEWuG3czJaug6.jpg",
+      "production_companies": [
+        {
+          "id": 10868,
+          "logo_path": "/9779IFPDaVxYmmWOHHfRyH17qnx.png",
+          "name": "STUDIO4℃",
+          "origin_country": "JP"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "JP",
+          "name": "Japan"
+        }
+      ],
+      "release_date": "1997-12-05",
+      "revenue": 0,
+      "runtime": 2,
+      "spoken_languages": [
+        {
+          "english_name": "Japanese",
+          "iso_639_1": "ja",
+          "name": "日本語"
+        }
+      ],
+      "status": "Released",
+      "tagline": "",
+      "title": "Gondora",
+      "video": false,
+      "vote_average": 5,
+      "vote_count": 4
+    },
+    {
+      "id": 157336,
+      "adult": false,
+      "backdrop_path": "/5XNQBqnBwPA9yT0jZ0p3s8bbLh0.jpg",
+      "belongs_to_collection": null,
+      "budget": 165000000,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        }
+      ],
+      "homepage": "http://www.interstellarmovie.net/",
+      "imdb_id": "tt0816692",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Interstellar",
+      "overview": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+      "popularity": 35.1853,
+      "poster_path": "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "production_companies": [
+        {
+          "id": 923,
+          "logo_path": "/5UQsZrfbfG2dYJbx8DxfoTr2Bvu.png",
+          "name": "Legendary Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 9996,
+          "logo_path": "/3tvBqYsBhxWeHlu62SIJ1el93O7.png",
+          "name": "Syncopy",
+          "origin_country": "GB"
+        },
+        {
+          "id": 13769,
+          "logo_path": null,
+          "name": "Lynda Obst Productions",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "GB",
+          "name": "United Kingdom"
+        },
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2014-11-05",
+      "revenue": 746606706,
+      "runtime": 169,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Mankind was born on Earth. It was never meant to die here.",
+      "title": "Interstellar",
+      "video": false,
+      "vote_average": 8.463,
+      "vote_count": 38267
+    },
+    {
+      "id": 157336,
+      "adult": false,
+      "backdrop_path": "/5XNQBqnBwPA9yT0jZ0p3s8bbLh0.jpg",
+      "belongs_to_collection": null,
+      "budget": 165000000,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        }
+      ],
+      "homepage": "http://www.interstellarmovie.net/",
+      "imdb_id": "tt0816692",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Interstellar",
+      "overview": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+      "popularity": 35.1853,
+      "poster_path": "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "production_companies": [
+        {
+          "id": 923,
+          "logo_path": "/5UQsZrfbfG2dYJbx8DxfoTr2Bvu.png",
+          "name": "Legendary Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 9996,
+          "logo_path": "/3tvBqYsBhxWeHlu62SIJ1el93O7.png",
+          "name": "Syncopy",
+          "origin_country": "GB"
+        },
+        {
+          "id": 13769,
+          "logo_path": null,
+          "name": "Lynda Obst Productions",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "GB",
+          "name": "United Kingdom"
+        },
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2014-11-05",
+      "revenue": 746606706,
+      "runtime": 169,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Mankind was born on Earth. It was never meant to die here.",
+      "title": "Interstellar",
+      "video": false,
+      "vote_average": 8.463,
+      "vote_count": 38267
+    },
+    {
+      "id": 27873,
+      "adult": false,
+      "backdrop_path": "/8hpZU2JVbI5rAV5tf6Kjn7fTEFj.jpg",
+      "belongs_to_collection": null,
+      "budget": 1000000,
+      "genres": [
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt0084887",
+      "origin_country": [
+        "NZ"
+      ],
+      "original_language": "en",
+      "original_title": "Battletruck",
+      "overview": "It's the 21st century, the Oil Wars have made a mess of the planet and the land outside major cities is lawless. After Hunter comes to the aid of Corlie, who has run away from the villainous Straker, he takes her to the peaceful community of Clearwater. Unfortunately for the citizens of Clearwater, Straker fully intends to get Corlie back.",
+      "popularity": 3.0145,
+      "poster_path": "/vKzIyRYkKfrUgHewh067a6i4Wj3.jpg",
+      "production_companies": [
+        {
+          "id": 26769,
+          "logo_path": null,
+          "name": "Battletruck Films",
+          "origin_country": "NZ"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "NZ",
+          "name": "New Zealand"
+        }
+      ],
+      "release_date": "1982-01-01",
+      "revenue": 3000000,
+      "runtime": 91,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "A science fiction adventure of the near future.",
+      "title": "Battletruck",
+      "video": false,
+      "vote_average": 4.457,
+      "vote_count": 35
     }
-  ]
+  ],
+  "reviews": []
 }
