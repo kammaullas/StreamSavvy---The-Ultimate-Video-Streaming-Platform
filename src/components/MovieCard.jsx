@@ -4,10 +4,12 @@ import { FaHeart } from "react-icons/fa";
 import api from "../services/api";
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
+import { useAuth } from "../context/AuthContext";
 
 export default function MovieCard({ movie }) {
   const [saved, setSaved] = useState(false);
   const [recordId, setRecordId] = useState(null); // JSON-server internal ID
+  const { user } = useAuth();
 
   // CHECK IF MOVIE ALREADY EXISTS IN WATCHLIST
   useEffect(() => {
@@ -24,6 +26,11 @@ export default function MovieCard({ movie }) {
   // HANDLE HEART CLICK
   const handleHeartClick = async (e) => {
     e.preventDefault();
+
+    if (!user) {
+      toast.error("Please login to add to watchlist");
+      return;
+    }
 
     if (!saved) {
       // ADD MOVIE
@@ -59,9 +66,8 @@ export default function MovieCard({ movie }) {
           className="absolute top-2 right-2 z-20 bg-black/60 p-2 rounded-full"
         >
           <FaHeart
-            className={`text-sm transition ${
-              saved ? "text-red-500" : "text-white group-hover:text-purple-300"
-            }`}
+            className={`text-sm transition ${saved ? "text-red-500" : "text-white group-hover:text-purple-300"
+              }`}
           />
         </button>
 

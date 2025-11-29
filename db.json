@@ -1,4 +1,12 @@
 {
+  "users": [
+    {
+      "id": "bef7",
+      "name": "Sandeep",
+      "email": "sandeep@gmail.com",
+      "password": "Sandeep7"
+    }
+  ],
   "movies": [
     {
       "id": "1",
@@ -35,20 +43,6 @@
       "title": "Predator: Badlands",
       "poster_path": "/ef2QSeBkrYhAdfsWGXmp0lvH0T1.jpg",
       "vote_average": 7.411
-    },
-    {
-      "id": "8c97",
-      "tmdb_id": "1062722",
-      "title": "Frankenstein",
-      "poster_path": "/g4JtvGlQO7DByTI6frUobqvSL3R.jpg",
-      "vote_average": 7.873
-    },
-    {
-      "id": "b2c8",
-      "tmdb_id": 967941,
-      "title": "Wicked: For Good",
-      "poster_path": "/si9tolnefLSUKaqQEGz1bWArOaL.jpg",
-      "vote_average": 6.744
     }
   ],
   "movie_cache": [
@@ -1625,7 +1619,7 @@
       "vote_count": 69
     },
     {
-      "id": 967941,
+      "id": "967941",
       "adult": false,
       "backdrop_path": "/l8pwO23MCvqYumzozpxynCNfck1.jpg",
       "belongs_to_collection": {
@@ -1697,7 +1691,7 @@
       "vote_count": 191
     },
     {
-      "id": 967941,
+      "id": "967941",
       "adult": false,
       "backdrop_path": "/l8pwO23MCvqYumzozpxynCNfck1.jpg",
       "belongs_to_collection": {
@@ -1769,7 +1763,7 @@
       "vote_count": 191
     },
     {
-      "id": 278,
+      "id": "278",
       "adult": false,
       "backdrop_path": "/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg",
       "belongs_to_collection": null,
@@ -1826,7 +1820,7 @@
       "vote_count": 29250
     },
     {
-      "id": 278,
+      "id": "278",
       "adult": false,
       "backdrop_path": "/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg",
       "belongs_to_collection": null,
@@ -1883,7 +1877,7 @@
       "vote_count": 29250
     },
     {
-      "id": 1434735,
+      "id": "1434735",
       "adult": false,
       "backdrop_path": null,
       "belongs_to_collection": null,
@@ -1940,7 +1934,7 @@
       "vote_count": 0
     },
     {
-      "id": 28609,
+      "id": "28609",
       "adult": false,
       "backdrop_path": "/wvneAN9gJSVS3HwnGpEBdv9zOlO.jpg",
       "belongs_to_collection": {
@@ -2012,7 +2006,7 @@
       "vote_count": 590
     },
     {
-      "id": 27837,
+      "id": "27837",
       "adult": false,
       "backdrop_path": "/kIVYUyggH4PeajI2WS68qprCtuD.jpg",
       "belongs_to_collection": {
@@ -2090,7 +2084,7 @@
       "vote_count": 6
     },
     {
-      "id": 459919,
+      "id": "459919",
       "adult": false,
       "backdrop_path": "/nbuynAFMVVGRAWqEYTasKv2cHKn.jpg",
       "belongs_to_collection": null,
@@ -2143,7 +2137,7 @@
       "vote_count": 4
     },
     {
-      "id": 157336,
+      "id": "157336",
       "adult": false,
       "backdrop_path": "/5XNQBqnBwPA9yT0jZ0p3s8bbLh0.jpg",
       "belongs_to_collection": null,
@@ -2220,7 +2214,7 @@
       "vote_count": 38267
     },
     {
-      "id": 157336,
+      "id": "157336",
       "adult": false,
       "backdrop_path": "/5XNQBqnBwPA9yT0jZ0p3s8bbLh0.jpg",
       "belongs_to_collection": null,
@@ -2297,7 +2291,7 @@
       "vote_count": 38267
     },
     {
-      "id": 27873,
+      "id": "27873",
       "adult": false,
       "backdrop_path": "/8hpZU2JVbI5rAV5tf6Kjn7fTEFj.jpg",
       "belongs_to_collection": null,
@@ -2356,6 +2350,1723 @@
       "video": false,
       "vote_average": 4.457,
       "vote_count": 35
+    },
+    {
+      "id": 1033462,
+      "adult": false,
+      "backdrop_path": "/lf8IZ86ajGpgbuyHCZrXUeAMmvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt10210064",
+      "origin_country": [
+        "CN"
+      ],
+      "original_language": "zh",
+      "original_title": "749局",
+      "overview": "A traumatized young man with physical abnormalities is forced to join a mysterious bureau to confront a disaster spreading across the earth caused by an unknown creature. He embarks on an adventure uncovering mysteries about his life.",
+      "popularity": 459.1933,
+      "poster_path": "/flykCMw22y6yv8vKnBjmsW3pneo.jpg",
+      "production_companies": [
+        {
+          "id": 139104,
+          "logo_path": null,
+          "name": "华文映像影视传媒有限公司",
+          "origin_country": "CN"
+        },
+        {
+          "id": 3393,
+          "logo_path": "/rv37YfhPg03ugK252E4oXMzgvks.png",
+          "name": "Huayi Brothers Pictures",
+          "origin_country": "CN"
+        },
+        {
+          "id": 148024,
+          "logo_path": "/hwoojywsskxB91jw2QwgLeTwMr.png",
+          "name": "Beijing Culture",
+          "origin_country": "CN"
+        },
+        {
+          "id": 84946,
+          "logo_path": "/8wrAXwrNZ5zHImKb0SyVLQbXkaM.png",
+          "name": "Tencent Penguin Pictures",
+          "origin_country": "CN"
+        },
+        {
+          "id": 239977,
+          "logo_path": null,
+          "name": "北京强电传媒有限公司",
+          "origin_country": ""
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "CN",
+          "name": "China"
+        }
+      ],
+      "release_date": "2024-10-01",
+      "revenue": 51706251,
+      "runtime": 123,
+      "spoken_languages": [
+        {
+          "english_name": "Mandarin",
+          "iso_639_1": "zh",
+          "name": "普通话"
+        }
+      ],
+      "status": "Released",
+      "tagline": "",
+      "title": "Bureau 749",
+      "video": false,
+      "vote_average": 5.6,
+      "vote_count": 40
+    },
+    {
+      "id": 1033462,
+      "adult": false,
+      "backdrop_path": "/lf8IZ86ajGpgbuyHCZrXUeAMmvy.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt10210064",
+      "origin_country": [
+        "CN"
+      ],
+      "original_language": "zh",
+      "original_title": "749局",
+      "overview": "A traumatized young man with physical abnormalities is forced to join a mysterious bureau to confront a disaster spreading across the earth caused by an unknown creature. He embarks on an adventure uncovering mysteries about his life.",
+      "popularity": 459.1933,
+      "poster_path": "/flykCMw22y6yv8vKnBjmsW3pneo.jpg",
+      "production_companies": [
+        {
+          "id": 139104,
+          "logo_path": null,
+          "name": "华文映像影视传媒有限公司",
+          "origin_country": "CN"
+        },
+        {
+          "id": 3393,
+          "logo_path": "/rv37YfhPg03ugK252E4oXMzgvks.png",
+          "name": "Huayi Brothers Pictures",
+          "origin_country": "CN"
+        },
+        {
+          "id": 148024,
+          "logo_path": "/hwoojywsskxB91jw2QwgLeTwMr.png",
+          "name": "Beijing Culture",
+          "origin_country": "CN"
+        },
+        {
+          "id": 84946,
+          "logo_path": "/8wrAXwrNZ5zHImKb0SyVLQbXkaM.png",
+          "name": "Tencent Penguin Pictures",
+          "origin_country": "CN"
+        },
+        {
+          "id": 239977,
+          "logo_path": null,
+          "name": "北京强电传媒有限公司",
+          "origin_country": ""
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "CN",
+          "name": "China"
+        }
+      ],
+      "release_date": "2024-10-01",
+      "revenue": 51706251,
+      "runtime": 123,
+      "spoken_languages": [
+        {
+          "english_name": "Mandarin",
+          "iso_639_1": "zh",
+          "name": "普通话"
+        }
+      ],
+      "status": "Released",
+      "tagline": "",
+      "title": "Bureau 749",
+      "video": false,
+      "vote_average": 5.6,
+      "vote_count": 40
+    },
+    {
+      "id": 1363123,
+      "adult": false,
+      "backdrop_path": "/7nAVXGHHtaNcdsqvDXmY6R9N0fG.jpg",
+      "belongs_to_collection": {
+        "id": 1363124,
+        "name": "The Family Plan Collection",
+        "poster_path": "/etf8OuJwaVYCa9NfQTrpPoTvvbj.jpg",
+        "backdrop_path": "/1nCczfmL9rNDOBJ53w4NrSqJu6F.jpg"
+      },
+      "budget": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        }
+      ],
+      "homepage": "https://tv.apple.com/movie/umc.cmc.1wj0ab94s7t1wy7sqv5dt6bfy",
+      "imdb_id": "tt34276058",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "The Family Plan 2",
+      "overview": "Now that Dan's assassin days are behind him, all he wants for Christmas is quality time with his kids. But when he learns his daughter has her own plans, he books a family trip to London—putting them all in the crosshairs of an unexpected enemy.",
+      "popularity": 315.5307,
+      "poster_path": "/semFxuYx6HcrkZzslgAkBqfJvZk.jpg",
+      "production_companies": [
+        {
+          "id": 82819,
+          "logo_path": "/gXfFl9pRPaoaq14jybEn1pHeldr.png",
+          "name": "Skydance Media",
+          "origin_country": "US"
+        },
+        {
+          "id": 169668,
+          "logo_path": "/iGEtQO0W5H2PAgqjL0yubcbSgr4.png",
+          "name": "Municipal Pictures",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2025-11-11",
+      "revenue": 0,
+      "runtime": 106,
+      "spoken_languages": [
+        {
+          "english_name": "Mandarin",
+          "iso_639_1": "zh",
+          "name": "普通话"
+        },
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        },
+        {
+          "english_name": "French",
+          "iso_639_1": "fr",
+          "name": "Français"
+        },
+        {
+          "english_name": "Russian",
+          "iso_639_1": "ru",
+          "name": "Pусский"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Deck the halls, dodge the bad guys.",
+      "title": "The Family Plan 2",
+      "video": false,
+      "vote_average": 6.769,
+      "vote_count": 216
+    },
+    {
+      "id": 1363123,
+      "adult": false,
+      "backdrop_path": "/7nAVXGHHtaNcdsqvDXmY6R9N0fG.jpg",
+      "belongs_to_collection": {
+        "id": 1363124,
+        "name": "The Family Plan Collection",
+        "poster_path": "/etf8OuJwaVYCa9NfQTrpPoTvvbj.jpg",
+        "backdrop_path": "/1nCczfmL9rNDOBJ53w4NrSqJu6F.jpg"
+      },
+      "budget": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        }
+      ],
+      "homepage": "https://tv.apple.com/movie/umc.cmc.1wj0ab94s7t1wy7sqv5dt6bfy",
+      "imdb_id": "tt34276058",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "The Family Plan 2",
+      "overview": "Now that Dan's assassin days are behind him, all he wants for Christmas is quality time with his kids. But when he learns his daughter has her own plans, he books a family trip to London—putting them all in the crosshairs of an unexpected enemy.",
+      "popularity": 315.5307,
+      "poster_path": "/semFxuYx6HcrkZzslgAkBqfJvZk.jpg",
+      "production_companies": [
+        {
+          "id": 82819,
+          "logo_path": "/gXfFl9pRPaoaq14jybEn1pHeldr.png",
+          "name": "Skydance Media",
+          "origin_country": "US"
+        },
+        {
+          "id": 169668,
+          "logo_path": "/iGEtQO0W5H2PAgqjL0yubcbSgr4.png",
+          "name": "Municipal Pictures",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2025-11-11",
+      "revenue": 0,
+      "runtime": 106,
+      "spoken_languages": [
+        {
+          "english_name": "Mandarin",
+          "iso_639_1": "zh",
+          "name": "普通话"
+        },
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        },
+        {
+          "english_name": "French",
+          "iso_639_1": "fr",
+          "name": "Français"
+        },
+        {
+          "english_name": "Russian",
+          "iso_639_1": "ru",
+          "name": "Pусский"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Deck the halls, dodge the bad guys.",
+      "title": "The Family Plan 2",
+      "video": false,
+      "vote_average": 6.769,
+      "vote_count": 216
+    },
+    {
+      "id": 1309012,
+      "adult": false,
+      "backdrop_path": "/zEsHEpCGZwGg3M2b0oSZuaPLwBh.jpg",
+      "belongs_to_collection": null,
+      "budget": 15000000,
+      "genres": [
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        }
+      ],
+      "homepage": "https://wellgousa.com/films/altered",
+      "imdb_id": "tt32123395",
+      "origin_country": [
+        "CA"
+      ],
+      "original_language": "en",
+      "original_title": "Altered",
+      "overview": "In an alternate present, genetically enhanced humans dominate society. Outcasts Leon and Chloe fight for justice against corrupt politicians exploiting genetic disparity, risking everything to challenge the oppressive system.",
+      "popularity": 333.1496,
+      "poster_path": "/6QlAcGRaUrgHcZ4WTBh5lsPnzKx.jpg",
+      "production_companies": [
+        {
+          "id": 232200,
+          "logo_path": null,
+          "name": "Studio Atlantic",
+          "origin_country": "IE"
+        },
+        {
+          "id": 232201,
+          "logo_path": null,
+          "name": "Art Galaxy",
+          "origin_country": "CA"
+        },
+        {
+          "id": 273958,
+          "logo_path": null,
+          "name": "Splendid Entertainment",
+          "origin_country": "DE"
+        },
+        {
+          "id": 92394,
+          "logo_path": "/xnsTWHinFaR4oQuHFdxe6JNhfrI.png",
+          "name": "Well Go USA Entertainment",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "CA",
+          "name": "Canada"
+        },
+        {
+          "iso_3166_1": "IE",
+          "name": "Ireland"
+        },
+        {
+          "iso_3166_1": "DE",
+          "name": "Germany"
+        },
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2025-09-18",
+      "revenue": 0,
+      "runtime": 85,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        },
+        {
+          "english_name": "German",
+          "iso_639_1": "de",
+          "name": "Deutsch"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Fight the system. Change the world.",
+      "title": "Altered",
+      "video": false,
+      "vote_average": 6.571,
+      "vote_count": 36
+    },
+    {
+      "id": 1309012,
+      "adult": false,
+      "backdrop_path": "/zEsHEpCGZwGg3M2b0oSZuaPLwBh.jpg",
+      "belongs_to_collection": null,
+      "budget": 15000000,
+      "genres": [
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        }
+      ],
+      "homepage": "https://wellgousa.com/films/altered",
+      "imdb_id": "tt32123395",
+      "origin_country": [
+        "CA"
+      ],
+      "original_language": "en",
+      "original_title": "Altered",
+      "overview": "In an alternate present, genetically enhanced humans dominate society. Outcasts Leon and Chloe fight for justice against corrupt politicians exploiting genetic disparity, risking everything to challenge the oppressive system.",
+      "popularity": 333.1496,
+      "poster_path": "/6QlAcGRaUrgHcZ4WTBh5lsPnzKx.jpg",
+      "production_companies": [
+        {
+          "id": 232200,
+          "logo_path": null,
+          "name": "Studio Atlantic",
+          "origin_country": "IE"
+        },
+        {
+          "id": 232201,
+          "logo_path": null,
+          "name": "Art Galaxy",
+          "origin_country": "CA"
+        },
+        {
+          "id": 273958,
+          "logo_path": null,
+          "name": "Splendid Entertainment",
+          "origin_country": "DE"
+        },
+        {
+          "id": 92394,
+          "logo_path": "/xnsTWHinFaR4oQuHFdxe6JNhfrI.png",
+          "name": "Well Go USA Entertainment",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "CA",
+          "name": "Canada"
+        },
+        {
+          "iso_3166_1": "IE",
+          "name": "Ireland"
+        },
+        {
+          "iso_3166_1": "DE",
+          "name": "Germany"
+        },
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2025-09-18",
+      "revenue": 0,
+      "runtime": 85,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        },
+        {
+          "english_name": "German",
+          "iso_639_1": "de",
+          "name": "Deutsch"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Fight the system. Change the world.",
+      "title": "Altered",
+      "video": false,
+      "vote_average": 6.571,
+      "vote_count": 36
+    },
+    {
+      "id": 673,
+      "adult": false,
+      "backdrop_path": "/fVgBU3KJAWHS55FPdbsZQ3YQG2Z.jpg",
+      "belongs_to_collection": {
+        "id": 1241,
+        "name": "Harry Potter Collection",
+        "poster_path": "/eVPs2Y0LyvTLZn6AP5Z6O2rtiGB.jpg",
+        "backdrop_path": "/kmEsQL2vOTA0jnM28fXS45Ky8kX.jpg"
+      },
+      "budget": 130000000,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        }
+      ],
+      "homepage": "https://www.warnerbros.com/movies/harry-potter-and-prisoner-azkaban",
+      "imdb_id": "tt0304141",
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_title": "Harry Potter and the Prisoner of Azkaban",
+      "overview": "Year three at Hogwarts means new fun and challenges as Harry learns the delicate art of approaching a Hippogriff, transforming shape-shifting Boggarts into hilarity and even turning back time. But the term also brings danger: soul-sucking Dementors hover over the school, an ally of the accursed He-Who-Cannot-Be-Named lurks within the castle walls, and fearsome wizard Sirius Black escapes Azkaban. And Harry will confront them all.",
+      "popularity": 23.671,
+      "poster_path": "/aWxwnYoe8p2d2fcxOqtvAtJ72Rw.jpg",
+      "production_companies": [
+        {
+          "id": 174,
+          "logo_path": "/ingPVoHnINIrFR7WHmYux1f5pES.png",
+          "name": "Warner Bros. Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 436,
+          "logo_path": "/A7WCkG3F0NFvjGCwUnclpGdIu9E.png",
+          "name": "1492 Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 437,
+          "logo_path": "/nu20mtwbEIhUNnQ5NXVhHsNknZj.png",
+          "name": "Heyday Films",
+          "origin_country": "GB"
+        },
+        {
+          "id": 19092,
+          "logo_path": null,
+          "name": "P of A Productions",
+          "origin_country": "GB"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "GB",
+          "name": "United Kingdom"
+        },
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2004-05-31",
+      "revenue": 789804554,
+      "runtime": 141,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Something wicked this way comes.",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "video": false,
+      "vote_average": 8.011,
+      "vote_count": 22573
+    },
+    {
+      "id": 372058,
+      "adult": false,
+      "backdrop_path": "/8x9iKH8kWA0zdkgNdpAew7OstYe.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 10749,
+          "name": "Romance"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "homepage": "https://www.funimationfilms.com/movie/yourname/",
+      "imdb_id": "tt5311514",
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_title": "君の名は。",
+      "overview": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
+      "popularity": 30.8248,
+      "poster_path": "/q719jXXEzOoYaps6babgKnONONX.jpg",
+      "production_companies": [
+        {
+          "id": 3756,
+          "logo_path": "/t38uPdbKmyBB8brKKeTFWIwojRz.png",
+          "name": "CoMix Wave Films",
+          "origin_country": "JP"
+        },
+        {
+          "id": 882,
+          "logo_path": "/fRSWWjquvzcHjACbtF53utZFIll.png",
+          "name": "TOHO",
+          "origin_country": "JP"
+        },
+        {
+          "id": 2073,
+          "logo_path": "/tWxRSaKmRJNTcmtlXsmn5R4KOSU.png",
+          "name": "KADOKAWA",
+          "origin_country": "JP"
+        },
+        {
+          "id": 8157,
+          "logo_path": "/pEqcMX1aG3JvtDgfh2wNZJLCcb4.png",
+          "name": "jeki",
+          "origin_country": "JP"
+        },
+        {
+          "id": 14602,
+          "logo_path": "/t9eqx5QCHtu8LxxgYzivqrJAosp.png",
+          "name": "AMUSE",
+          "origin_country": "JP"
+        },
+        {
+          "id": 128617,
+          "logo_path": null,
+          "name": "voque ting",
+          "origin_country": "JP"
+        },
+        {
+          "id": 104184,
+          "logo_path": "/reEBh8dBl2y1DbXe2EdgxtMtaim.png",
+          "name": "Lawson Entertainment",
+          "origin_country": "JP"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "JP",
+          "name": "Japan"
+        }
+      ],
+      "release_date": "2016-08-26",
+      "revenue": 358000000,
+      "runtime": 106,
+      "spoken_languages": [
+        {
+          "english_name": "Japanese",
+          "iso_639_1": "ja",
+          "name": "日本語"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Separated by distance, connected by fate.",
+      "title": "Your Name.",
+      "video": false,
+      "vote_average": 8.479,
+      "vote_count": 12121
+    },
+    {
+      "id": 372058,
+      "adult": false,
+      "backdrop_path": "/8x9iKH8kWA0zdkgNdpAew7OstYe.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 10749,
+          "name": "Romance"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "homepage": "https://www.funimationfilms.com/movie/yourname/",
+      "imdb_id": "tt5311514",
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_title": "君の名は。",
+      "overview": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
+      "popularity": 30.8248,
+      "poster_path": "/q719jXXEzOoYaps6babgKnONONX.jpg",
+      "production_companies": [
+        {
+          "id": 3756,
+          "logo_path": "/t38uPdbKmyBB8brKKeTFWIwojRz.png",
+          "name": "CoMix Wave Films",
+          "origin_country": "JP"
+        },
+        {
+          "id": 882,
+          "logo_path": "/fRSWWjquvzcHjACbtF53utZFIll.png",
+          "name": "TOHO",
+          "origin_country": "JP"
+        },
+        {
+          "id": 2073,
+          "logo_path": "/tWxRSaKmRJNTcmtlXsmn5R4KOSU.png",
+          "name": "KADOKAWA",
+          "origin_country": "JP"
+        },
+        {
+          "id": 8157,
+          "logo_path": "/pEqcMX1aG3JvtDgfh2wNZJLCcb4.png",
+          "name": "jeki",
+          "origin_country": "JP"
+        },
+        {
+          "id": 14602,
+          "logo_path": "/t9eqx5QCHtu8LxxgYzivqrJAosp.png",
+          "name": "AMUSE",
+          "origin_country": "JP"
+        },
+        {
+          "id": 128617,
+          "logo_path": null,
+          "name": "voque ting",
+          "origin_country": "JP"
+        },
+        {
+          "id": 104184,
+          "logo_path": "/reEBh8dBl2y1DbXe2EdgxtMtaim.png",
+          "name": "Lawson Entertainment",
+          "origin_country": "JP"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "JP",
+          "name": "Japan"
+        }
+      ],
+      "release_date": "2016-08-26",
+      "revenue": 358000000,
+      "runtime": 106,
+      "spoken_languages": [
+        {
+          "english_name": "Japanese",
+          "iso_639_1": "ja",
+          "name": "日本語"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Separated by distance, connected by fate.",
+      "title": "Your Name.",
+      "video": false,
+      "vote_average": 8.479,
+      "vote_count": 12121
+    },
+    {
+      "id": 285,
+      "adult": false,
+      "backdrop_path": "/1vKGbjsqaLz2WecjVP7xaMxDdVn.jpg",
+      "belongs_to_collection": {
+        "id": 295,
+        "name": "Pirates of the Caribbean Collection",
+        "poster_path": "/zRBaZxS5YauLvRYjAdL4AUCwlht.jpg",
+        "backdrop_path": "/wxgD3fB5lQ2sGJLog0rvXW049Pf.jpg"
+      },
+      "budget": 300000000,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        }
+      ],
+      "homepage": "https://movies.disney.com/pirates-of-the-caribbean-at-worlds-end",
+      "imdb_id": "tt0449088",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Pirates of the Caribbean: At World's End",
+      "overview": "Will Turner and Elizabeth Swann join forces with the revived Captain Barbossa to free Jack Sparrow from Davy Jones' locker. The group must navigate dangerous waters, confront many foes and, ultimately, choose sides in a battle wherein piracy itself hangs in the balance.",
+      "popularity": 16.67,
+      "poster_path": "/jGWpG4YhpQwVmjyHEGkxEkeRf0S.jpg",
+      "production_companies": [
+        {
+          "id": 130,
+          "logo_path": "/c9dVHPOL3cqCr2593Ahk0nEKTEM.png",
+          "name": "Jerry Bruckheimer Films",
+          "origin_country": "US"
+        },
+        {
+          "id": 19936,
+          "logo_path": null,
+          "name": "Second Mate Productions",
+          "origin_country": "US"
+        },
+        {
+          "id": 2,
+          "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+          "name": "Walt Disney Pictures",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2007-05-19",
+      "revenue": 961691209,
+      "runtime": 169,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "At the end of the world, the adventure begins.",
+      "title": "Pirates of the Caribbean: At World's End",
+      "video": false,
+      "vote_average": 7.266,
+      "vote_count": 15047
+    },
+    {
+      "id": 11653,
+      "adult": false,
+      "backdrop_path": "/xChyWmjDeEH8zOVi9dwVrtIJEfd.jpg",
+      "belongs_to_collection": {
+        "id": 1452167,
+        "name": "The Myth Collection",
+        "poster_path": "/6TRuMYz8mmbBxucQbyksbOFfieY.jpg",
+        "backdrop_path": "/5GC4cUCAk5RSqVVZWsbCFh6KbEa.jpg"
+      },
+      "budget": 15000000,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt0365847",
+      "origin_country": [
+        "HK"
+      ],
+      "original_language": "zh",
+      "original_title": "神話",
+      "overview": "When a fellow scientist asks for Jack's help in locating the mausoleum of China's first emperor, the past collides violently with the present as Jack discovers his amazing visions are based in fact.",
+      "popularity": 4.6916,
+      "poster_path": "/iBDFnLkTZZxQlbb6IIeYkufnPCY.jpg",
+      "production_companies": [
+        {
+          "id": 2726,
+          "logo_path": "/prHrgMVMpZnTgEWYo9Mi7nyka34.png",
+          "name": "JCE Movies",
+          "origin_country": "HK"
+        },
+        {
+          "id": 2269,
+          "logo_path": null,
+          "name": "China Film Co-Production Corp.",
+          "origin_country": "CN"
+        },
+        {
+          "id": 122289,
+          "logo_path": "/4l16C8j9h4frZO5iPD71lpLqTH3.png",
+          "name": "Emperor Motion Pictures",
+          "origin_country": "HK"
+        },
+        {
+          "id": 14714,
+          "logo_path": "/dSHaVKtBCpMU5VP9wMbTkqov62i.png",
+          "name": "China Film Group Corporation",
+          "origin_country": "CN"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "CN",
+          "name": "China"
+        },
+        {
+          "iso_3166_1": "HK",
+          "name": "Hong Kong"
+        }
+      ],
+      "release_date": "2005-05-11",
+      "revenue": 6669097,
+      "runtime": 118,
+      "spoken_languages": [
+        {
+          "english_name": "Mandarin",
+          "iso_639_1": "zh",
+          "name": "普通话"
+        },
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        },
+        {
+          "english_name": "Hindi",
+          "iso_639_1": "hi",
+          "name": "हिन्दी"
+        },
+        {
+          "english_name": "Korean",
+          "iso_639_1": "ko",
+          "name": "한국어/조선말"
+        },
+        {
+          "english_name": "Malayalam",
+          "iso_639_1": "ml",
+          "name": ""
+        }
+      ],
+      "status": "Released",
+      "tagline": "An Unforgettable Journey Through Time Unearths A Hero For The Ages.",
+      "title": "The Myth",
+      "video": false,
+      "vote_average": 6.395,
+      "vote_count": 401
+    },
+    {
+      "id": 452832,
+      "adult": false,
+      "backdrop_path": "/ridcUDnFumpMB5AAsIvFafTSx5i.jpg",
+      "belongs_to_collection": null,
+      "budget": 25000000,
+      "genres": [
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 9648,
+          "name": "Mystery"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt6476140",
+      "origin_country": [
+        "GB",
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Serenity",
+      "overview": "The quiet life of Baker Dill, a fishing boat captain who lives on the isolated Plymouth Island, where he spends his days obsessed with capturing an elusive tuna while fighting his personal demons, is interrupted when someone from his past comes to him searching for help.",
+      "popularity": 3.0367,
+      "poster_path": "/hgWAcic93phg4DOuQ8NrsgQWiqu.jpg",
+      "production_companies": [
+        {
+          "id": 125282,
+          "logo_path": "/9D4A6Lc6m2RBlDkeGF6jpJljAgm.png",
+          "name": "Nebulastar",
+          "origin_country": "GB"
+        },
+        {
+          "id": 28473,
+          "logo_path": null,
+          "name": "Shoebox Films",
+          "origin_country": "GB"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "GB",
+          "name": "United Kingdom"
+        }
+      ],
+      "release_date": "2019-01-24",
+      "revenue": 14500000,
+      "runtime": 102,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        },
+        {
+          "english_name": "French",
+          "iso_639_1": "fr",
+          "name": "Français"
+        }
+      ],
+      "status": "Released",
+      "tagline": "On Plymouth Island, no one ever dies… unless you break the rules",
+      "title": "Serenity",
+      "video": false,
+      "vote_average": 5.449,
+      "vote_count": 1580
+    },
+    {
+      "id": 832643,
+      "adult": false,
+      "backdrop_path": null,
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt1294193",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Någon Annanstans",
+      "overview": "Said, the main character in the film Another Place, lives in Sweden but longs to be somewhere else. His integrity is suddenly and brutally violated when the police ransack his apartment and brand him as a terrorist.",
+      "popularity": 0.3224,
+      "poster_path": "/3qFssPVhWvEesaikpJblsBzAqWw.jpg",
+      "production_companies": [
+        {
+          "id": 154722,
+          "logo_path": null,
+          "name": "Étranger Film",
+          "origin_country": ""
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "SE",
+          "name": "Sweden"
+        }
+      ],
+      "release_date": "2009-01-01",
+      "revenue": 0,
+      "runtime": 87,
+      "spoken_languages": [
+        {
+          "english_name": "Persian",
+          "iso_639_1": "fa",
+          "name": "فارسی"
+        },
+        {
+          "english_name": "Swedish",
+          "iso_639_1": "sv",
+          "name": "svenska"
+        }
+      ],
+      "status": "Released",
+      "tagline": "",
+      "title": "Någon Annanstans",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "id": 7461,
+      "adult": false,
+      "backdrop_path": "/tmh9zbHQiugRMloFk8co3PBmtoo.jpg",
+      "belongs_to_collection": null,
+      "budget": 40000000,
+      "genres": [
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        }
+      ],
+      "homepage": "https://www.sonypictures.com/movies/vantagepoint",
+      "imdb_id": "tt0443274",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Vantage Point",
+      "overview": "During an historic counter-terrorism summit in Spain, the President of the United States is struck down by an assassin's bullet. Eight strangers have a perfect view of the kill, but what did they really see? As the minutes leading up to the fatal shot are replayed through the eyes of each eyewitness, the reality of the assassination takes shape.",
+      "popularity": 6.5068,
+      "poster_path": "/9xA1KaGoYQJveY3C87J41Au5Kkn.jpg",
+      "production_companies": [
+        {
+          "id": 4169,
+          "logo_path": null,
+          "name": "KanZaman Productions",
+          "origin_country": "ES"
+        },
+        {
+          "id": 7295,
+          "logo_path": "/5MYE96QiE5a5oFhXxFb4y8ILSpw.png",
+          "name": "Relativity Media",
+          "origin_country": "US"
+        },
+        {
+          "id": 333,
+          "logo_path": "/5xUJfzPZ8jWJUDzYtIeuPO4qPIa.png",
+          "name": "Original Film",
+          "origin_country": "US"
+        },
+        {
+          "id": 31604,
+          "logo_path": null,
+          "name": "Art In Motion",
+          "origin_country": ""
+        },
+        {
+          "id": 5,
+          "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+          "name": "Columbia Pictures",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "MX",
+          "name": "Mexico"
+        },
+        {
+          "iso_3166_1": "ES",
+          "name": "Spain"
+        },
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2008-02-01",
+      "revenue": 152039882,
+      "runtime": 90,
+      "spoken_languages": [
+        {
+          "english_name": "Spanish",
+          "iso_639_1": "es",
+          "name": "Español"
+        },
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "8 strangers. 8 points of view.  1 truth.",
+      "title": "Vantage Point",
+      "video": false,
+      "vote_average": 6.4,
+      "vote_count": 2093
+    },
+    {
+      "id": 1084242,
+      "adult": false,
+      "backdrop_path": "/5h2EsPKNDdB3MAtOk9MB9Ycg9Rz.jpg",
+      "belongs_to_collection": {
+        "id": 1084247,
+        "name": "Zootopia Collection",
+        "poster_path": "/u8597pdwSHOvcJQhP2cLi7a67ZW.jpg",
+        "backdrop_path": "/1WDssJDYInLA4Avg45lgy3WM6Ly.jpg"
+      },
+      "budget": 180000000,
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 10751,
+          "name": "Family"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 9648,
+          "name": "Mystery"
+        }
+      ],
+      "homepage": "https://movies.disney.com/zootopia-2",
+      "imdb_id": "tt26443597",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Zootopia 2",
+      "overview": "After cracking the biggest case in Zootopia's history, rookie cops Judy Hopps and Nick Wilde find themselves on the twisting trail of a great mystery when Gary De’Snake arrives and turns the animal metropolis upside down. To crack the case, Judy and Nick must go undercover to unexpected new parts of town, where their growing partnership is tested like never before.",
+      "popularity": 438.7685,
+      "poster_path": "/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg",
+      "production_companies": [
+        {
+          "id": 6125,
+          "logo_path": "/tzsMJBJZINu7GHzrpYzpReWhh66.png",
+          "name": "Walt Disney Animation Studios",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2025-11-26",
+      "revenue": 133200000,
+      "runtime": 107,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Zootopia will be changed furrrever...",
+      "title": "Zootopia 2",
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 114
+    },
+    {
+      "id": 1084242,
+      "adult": false,
+      "backdrop_path": "/5h2EsPKNDdB3MAtOk9MB9Ycg9Rz.jpg",
+      "belongs_to_collection": {
+        "id": 1084247,
+        "name": "Zootopia Collection",
+        "poster_path": "/u8597pdwSHOvcJQhP2cLi7a67ZW.jpg",
+        "backdrop_path": "/1WDssJDYInLA4Avg45lgy3WM6Ly.jpg"
+      },
+      "budget": 180000000,
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 10751,
+          "name": "Family"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 9648,
+          "name": "Mystery"
+        }
+      ],
+      "homepage": "https://movies.disney.com/zootopia-2",
+      "imdb_id": "tt26443597",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Zootopia 2",
+      "overview": "After cracking the biggest case in Zootopia's history, rookie cops Judy Hopps and Nick Wilde find themselves on the twisting trail of a great mystery when Gary De’Snake arrives and turns the animal metropolis upside down. To crack the case, Judy and Nick must go undercover to unexpected new parts of town, where their growing partnership is tested like never before.",
+      "popularity": 438.7685,
+      "poster_path": "/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg",
+      "production_companies": [
+        {
+          "id": 6125,
+          "logo_path": "/tzsMJBJZINu7GHzrpYzpReWhh66.png",
+          "name": "Walt Disney Animation Studios",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2025-11-26",
+      "revenue": 133200000,
+      "runtime": 107,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Zootopia will be changed furrrever...",
+      "title": "Zootopia 2",
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 114
+    },
+    {
+      "id": 755898,
+      "adult": false,
+      "backdrop_path": "/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "homepage": "https://www.amazon.com/gp/video/detail/B0DMF7MXKT",
+      "imdb_id": "tt13186306",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "War of the Worlds",
+      "overview": "Will Radford is a top analyst for Homeland Security who tracks potential threats through a mass surveillance program, until one day an attack by an unknown entity leads him to question whether the government is hiding something from him... and from the rest of the world.",
+      "popularity": 160.2495,
+      "poster_path": "/yvirUYrva23IudARHn3mMGVxWqM.jpg",
+      "production_companies": [
+        {
+          "id": 33,
+          "logo_path": "/6exxhPonOo0M995SAchY0ijpRao.png",
+          "name": "Universal Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 109501,
+          "logo_path": "/4dtmZKPLHzIALpGbdeSNX6Rw1p3.png",
+          "name": "Bazelevs",
+          "origin_country": "US"
+        },
+        {
+          "id": 59827,
+          "logo_path": null,
+          "name": "Patrick Aiello Productions",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2025-07-29",
+      "revenue": 0,
+      "runtime": 91,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Your data is deadly.",
+      "title": "War of the Worlds",
+      "video": false,
+      "vote_average": 4.298,
+      "vote_count": 757
+    },
+    {
+      "id": 755898,
+      "adult": false,
+      "backdrop_path": "/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "homepage": "https://www.amazon.com/gp/video/detail/B0DMF7MXKT",
+      "imdb_id": "tt13186306",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "War of the Worlds",
+      "overview": "Will Radford is a top analyst for Homeland Security who tracks potential threats through a mass surveillance program, until one day an attack by an unknown entity leads him to question whether the government is hiding something from him... and from the rest of the world.",
+      "popularity": 160.2495,
+      "poster_path": "/yvirUYrva23IudARHn3mMGVxWqM.jpg",
+      "production_companies": [
+        {
+          "id": 33,
+          "logo_path": "/6exxhPonOo0M995SAchY0ijpRao.png",
+          "name": "Universal Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 109501,
+          "logo_path": "/4dtmZKPLHzIALpGbdeSNX6Rw1p3.png",
+          "name": "Bazelevs",
+          "origin_country": "US"
+        },
+        {
+          "id": 59827,
+          "logo_path": null,
+          "name": "Patrick Aiello Productions",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2025-07-29",
+      "revenue": 0,
+      "runtime": 91,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Your data is deadly.",
+      "title": "War of the Worlds",
+      "video": false,
+      "vote_average": 4.298,
+      "vote_count": 757
+    },
+    {
+      "id": 701387,
+      "adult": false,
+      "backdrop_path": "/ulEVubPGxPXik31qcmBTt4oupgM.jpg",
+      "belongs_to_collection": null,
+      "budget": 50000000,
+      "genres": [
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        }
+      ],
+      "homepage": "https://www.focusfeatures.com/bugonia",
+      "imdb_id": "tt12300742",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Bugonia",
+      "overview": "Two conspiracy obsessed young men kidnap the high-powered CEO of a major company, convinced that she is an alien intent on destroying planet Earth.",
+      "popularity": 116.4051,
+      "poster_path": "/oxgsAQDAAxA92mFGYCZllgWkH9J.jpg",
+      "production_companies": [
+        {
+          "id": 3353,
+          "logo_path": "/hUw1iTY3hdjyb2zXT9KxupHbL4M.png",
+          "name": "Element Pictures",
+          "origin_country": "IE"
+        },
+        {
+          "id": 123620,
+          "logo_path": "/ePRhZ3yb09Ya6WMzCCBYopwIYbE.png",
+          "name": "Square Peg",
+          "origin_country": "US"
+        },
+        {
+          "id": 121813,
+          "logo_path": "/7OwtRpQAFKU3KWA7InBg3h3PxqI.png",
+          "name": "Fremantle",
+          "origin_country": "US"
+        },
+        {
+          "id": 264539,
+          "logo_path": null,
+          "name": "Pith Quest Films",
+          "origin_country": "CA"
+        },
+        {
+          "id": 138287,
+          "logo_path": "/3I1k679J7ZLQtVFM23dJhFZQQCH.png",
+          "name": "Fruit Tree",
+          "origin_country": "US"
+        },
+        {
+          "id": 128404,
+          "logo_path": "/dP3usmr6di1jMPH738rvbxdkmSQ.png",
+          "name": "CJ ENM",
+          "origin_country": "KR"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "IE",
+          "name": "Ireland"
+        },
+        {
+          "iso_3166_1": "KR",
+          "name": "South Korea"
+        },
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        },
+        {
+          "iso_3166_1": "CA",
+          "name": "Canada"
+        }
+      ],
+      "release_date": "2025-10-23",
+      "revenue": 32857834,
+      "runtime": 119,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Of all the abductions, this one is different.",
+      "title": "Bugonia",
+      "video": false,
+      "vote_average": 7.555,
+      "vote_count": 478
+    },
+    {
+      "id": 701387,
+      "adult": false,
+      "backdrop_path": "/ulEVubPGxPXik31qcmBTt4oupgM.jpg",
+      "belongs_to_collection": null,
+      "budget": 50000000,
+      "genres": [
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        }
+      ],
+      "homepage": "https://www.focusfeatures.com/bugonia",
+      "imdb_id": "tt12300742",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Bugonia",
+      "overview": "Two conspiracy obsessed young men kidnap the high-powered CEO of a major company, convinced that she is an alien intent on destroying planet Earth.",
+      "popularity": 116.4051,
+      "poster_path": "/oxgsAQDAAxA92mFGYCZllgWkH9J.jpg",
+      "production_companies": [
+        {
+          "id": 3353,
+          "logo_path": "/hUw1iTY3hdjyb2zXT9KxupHbL4M.png",
+          "name": "Element Pictures",
+          "origin_country": "IE"
+        },
+        {
+          "id": 123620,
+          "logo_path": "/ePRhZ3yb09Ya6WMzCCBYopwIYbE.png",
+          "name": "Square Peg",
+          "origin_country": "US"
+        },
+        {
+          "id": 121813,
+          "logo_path": "/7OwtRpQAFKU3KWA7InBg3h3PxqI.png",
+          "name": "Fremantle",
+          "origin_country": "US"
+        },
+        {
+          "id": 264539,
+          "logo_path": null,
+          "name": "Pith Quest Films",
+          "origin_country": "CA"
+        },
+        {
+          "id": 138287,
+          "logo_path": "/3I1k679J7ZLQtVFM23dJhFZQQCH.png",
+          "name": "Fruit Tree",
+          "origin_country": "US"
+        },
+        {
+          "id": 128404,
+          "logo_path": "/dP3usmr6di1jMPH738rvbxdkmSQ.png",
+          "name": "CJ ENM",
+          "origin_country": "KR"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "IE",
+          "name": "Ireland"
+        },
+        {
+          "iso_3166_1": "KR",
+          "name": "South Korea"
+        },
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        },
+        {
+          "iso_3166_1": "CA",
+          "name": "Canada"
+        }
+      ],
+      "release_date": "2025-10-23",
+      "revenue": 32857834,
+      "runtime": 119,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Of all the abductions, this one is different.",
+      "title": "Bugonia",
+      "video": false,
+      "vote_average": 7.555,
+      "vote_count": 478
     }
   ],
   "reviews": []

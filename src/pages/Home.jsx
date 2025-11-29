@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import tmdb, { imageUrl } from "../services/tmdb";
+import tmdb from "../services/tmdb"; // Removed imageUrl import as it's handled in Banner
 import MovieCarousel from "../components/MovieCarousel";
+import Banner from "../components/Banner"; // Import your Banner component
 
 export default function Home() {
   const [trending, setTrending] = useState([]);
@@ -21,54 +22,24 @@ export default function Home() {
       .catch(console.error);
   }, []);
 
+  // Get the first movie for the banner
   const bannerMovie = popular.length > 0 ? popular[0] : null;
 
   return (
-    <div className="pt-20 bg-[#0b0213]">
-
+    // FIX: Removed 'pt-20'. Added 'min-h-screen'
+    <div className="bg-[#0b0213] min-h-screen text-white">
+      
       {/* ------------------ BANNER ------------------ */}
-      {bannerMovie && (
-        <div
-          className="relative h-[70vh] w-full bg-cover bg-center"
-          style={{ backgroundImage: `url(${imageUrl(bannerMovie.backdrop_path)})` }}
-        >
-          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
-
-          <div className="absolute bottom-20 left-10">
-            <h1 className="text-5xl font-bold">
-              {bannerMovie.title}
-            </h1>
-
-            <p className="mt-3 max-w-xl text-gray-300">
-              {bannerMovie.overview}
-            </p>
-
-            <div className="flex gap-4 mt-5">
-              <button className="bg-white text-black px-6 py-2 rounded-md hover:bg-gray-200">
-                ▶ Play
-              </button>
-              <button className="bg-white/30 text-white px-6 py-2 rounded-md hover:bg-white/40">
-                ℹ More Info
-              </button>
-            </div>
-          </div>
-          <button
-          onClick={() =>
-            addToWatchlist(popular[0])
-              .then(r => alert(r.status === "added" ? "Added!" : "Already added"))
-          }
-          className="bg-white text-black px-6 py-2 rounded-md hover:bg-gray-200"
-        >
-          ➕ My List
-        </button>
-
-        </div>
-      )}
+      {/* Passing the data to your Banner component */}
+      <Banner movie={bannerMovie} />
 
       {/* ------------------ CAROUSELS ------------------ */}
-      <MovieCarousel title="Trending Now" movies={trending} />
-      <MovieCarousel title="Popular on StreamSavvy" movies={popular} />
-      <MovieCarousel title="Top Rated" movies={topRated} />
+      {/* Added 'pb-10' for spacing at the bottom of the page */}
+      <div className="pb-10 space-y-8">
+        <MovieCarousel title="Trending Now" movies={trending} />
+        <MovieCarousel title="Popular on StreamSavvy" movies={popular} />
+        <MovieCarousel title="Top Rated" movies={topRated} />
+      </div>
 
     </div>
   );

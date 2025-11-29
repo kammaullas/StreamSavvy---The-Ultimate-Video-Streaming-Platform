@@ -10,6 +10,19 @@
 /* ---------------------------------
 CUSTOM STREAMSAVVY THEME
 ----------------------------------*/
+/* src/index.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0b0213; /* Forces background to black */
+  overflow-x: hidden;
+}
+
+/* 2. ENSURE ROOT FILLS HEIGHT */
+#root {
+  min-height: 100vh;
+  background-color: #0b0213;
+}
 
 /* GLOBAL BACKGROUND */
 .bg-royal-900 {
@@ -80,5 +93,6 @@ CUSTOM STREAMSAVVY THEME
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   overflow: hidden;
 }
