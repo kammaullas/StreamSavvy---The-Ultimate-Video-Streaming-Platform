@@ -1,5 +1,5 @@
 import { createContext, useState, useEffect, useContext } from "react";
-import { loginUser, registerUser, checkEmailExists } from "../services/auth";
+import { loginUser, registerUser, checkEmailExists, updateUser } from "../services/auth";
 import { toast } from "react-toastify";
 
 const AuthContext = createContext();
@@ -62,8 +62,29 @@ export const AuthProvider = ({ children }) => {
         toast.info("Logged out successfully");
     };
 
+    const updateUserProfile = async (updatedData) => {
+        try {
+            // Merge existing user data with updates to ensure we don't lose fields (like id, password if not updating)
+            // Ideally backend handles partial updates, but PUT usually replaces.
+            // We should pass everything or ensure backend supports PATCH.
+            // json-server PUT replaces the item. So we need to merge here or pass full object.
+            // We'll assume updatedData contains what we want to change, and we merge with current user.
+            const fullUserData = { ...user, ...updatedData };
+
+            const updatedUser = await updateUser(user.id, fullUserData);
+            setUser(updatedUser);
+            localStorage.setItem("user", JSON.stringify(updatedUser));
+            toast.success("Profile updated successfully!");
+            return true;
+        } catch (error) {
+            console.error("Update profile error:", error);
+            toast.error("Failed to update profile.");
+            return false;
+        }
+    };
+
     return (
-        <AuthContext.Provider value={{ user, login, register, logout, loading }}>
+        <AuthContext.Provider value={{ user, login, register, logout, updateUserProfile, loading }}>
             {children}
         </AuthContext.Provider>
     );

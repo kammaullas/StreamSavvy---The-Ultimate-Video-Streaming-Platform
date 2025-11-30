@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import tmdb, { imageUrl } from "../services/tmdb";
-import { getReviews, addReview, deleteReview } from "../services/reviews";
+import { getReviews, addReview, deleteReview, updateReview } from "../services/reviews";
 import {
   addToWatchlist,
   removeFromWatchlistRecordId,
@@ -43,12 +43,30 @@ export default function Details() {
   const [reviews, setReviews] = useState([]);
   const [newRating, setNewRating] = useState(0);
   const [newComment, setNewComment] = useState("");
+  const [userReviewId, setUserReviewId] = useState(null);
+  const [hasReviewed, setHasReviewed] = useState(false);
 
   useEffect(() => {
     loadMovie();
     isInWatchlist(id).then(setWatchlistRecord);
     getReviews(id).then(res => setReviews(res.data));
   }, [id]);
+
+  useEffect(() => {
+    if (user && reviews.length > 0) {
+      const existingReview = reviews.find((r) => r.user === user.name);
+      setHasReviewed(!!existingReview);
+
+      // If the review we were editing is gone (deleted), reset edit state
+      if (!existingReview && userReviewId) {
+        setUserReviewId(null);
+        setNewRating(0);
+        setNewComment("");
+      }
+    } else {
+      setHasReviewed(false);
+    }
+  }, [user, reviews]);
 
   const loadMovie = async () => {
     const cached = await getCachedMovie(id);
@@ -179,8 +197,8 @@ export default function Details() {
             <button
               onClick={toggleWatchlist}
               className={`px-6 py-3 rounded-lg font-medium border transition flex items-center gap-2 ${watchlistRecord
-                  ? "bg-gray-800 border-red-500 text-red-500 hover:bg-gray-700"
-                  : "bg-gray-800 border-gray-600 hover:bg-gray-700 text-white"
+                ? "bg-gray-800 border-red-500 text-red-500 hover:bg-gray-700"
+                : "bg-gray-800 border-gray-600 hover:bg-gray-700 text-white"
                 }`}
             >
               <FaHeart size={18} />
@@ -272,49 +290,93 @@ export default function Details() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {/* Review Form */}
-          <div className="bg-[#151518] p-6 rounded-xl border border-gray-800 h-fit">
+          <div className="bg-[#151518] p-6 rounded-xl border border-gray-800 h-fit" id="review-form">
             {user ? (
               <>
-                <h3 className="text-lg font-semibold mb-4">Leave a Review</h3>
-                <div className="flex gap-2 mb-4">
-                  {[...Array(10)].map((_, i) => (
-                    <span
-                      key={i}
-                      onClick={() => setNewRating(i + 1)}
-                      className={`cursor-pointer text-xl transition ${i < newRating ? "text-yellow-400 scale-110" : "text-gray-600 hover:text-gray-400"
-                        }`}
+                <h3 className="text-lg font-semibold mb-4">
+                  {userReviewId ? "Edit Your Review" : "Leave a Review"}
+                </h3>
+
+                {hasReviewed && !userReviewId ? (
+                  <div className="text-center py-6">
+                    <p className="text-gray-400 mb-2">You have already reviewed this movie.</p>
+                    <p className="text-sm text-gray-500">Find your review below to edit or delete it.</p>
+                  </div>
+                ) : (
+                  <>
+                    <div className="flex gap-2 mb-4">
+                      {[...Array(10)].map((_, i) => (
+                        <span
+                          key={i}
+                          onClick={() => setNewRating(i + 1)}
+                          className={`cursor-pointer text-xl transition ${i < newRating ? "text-yellow-400 scale-110" : "text-gray-600 hover:text-gray-400"
+                            }`}
+                        >
+                          ★
+                        </span>
+                      ))}
+                    </div>
+                    <textarea
+                      className="w-full bg-black/50 border border-gray-700 p-3 rounded-lg text-white focus:outline-none focus:border-purple-500 transition"
+                      placeholder="What did you think of this movie?"
+                      rows="4"
+                      value={newComment}
+                      onChange={(e) => setNewComment(e.target.value)}
+                    />
+                    <button
+                      className="bg-white text-black font-bold px-6 py-2 rounded-lg mt-4 hover:bg-gray-200 transition w-full"
+                      onClick={async () => {
+                        if (!newRating || !newComment) return toast.warn("Please enter a rating and comment!");
+
+                        const reviewData = {
+                          movieId: Number(id),
+                          rating: newRating,
+                          comment: newComment,
+                          user: user.name,
+                          date: new Date().toISOString().split("T")[0]
+                        };
+
+                        if (userReviewId) {
+                          // Update existing review
+                          const res = await updateReview(userReviewId, reviewData);
+                          setReviews(prev => prev.map(r => r.id === userReviewId ? res.data : r));
+                          toast.success("Review Updated!");
+                          setUserReviewId(null); // Exit edit mode
+                          setNewRating(0);
+                          setNewComment("");
+                        } else {
+                          // Add new review
+                          const res = await addReview(reviewData);
+                          setReviews(prev => [...prev, res.data]);
+                          toast.success("Review Submitted!");
+                          setNewRating(0);
+                          setNewComment("");
+                        }
+
+                        // Remove from watchlist if present
+                        if (watchlistRecord) {
+                          await removeFromWatchlistRecordId(watchlistRecord.id);
+                          setWatchlistRecord(null);
+                          toast.info("Removed from Watchlist as you've watched it");
+                        }
+                      }}
                     >
-                      ★
-                    </span>
-                  ))}
-                </div>
-                <textarea
-                  className="w-full bg-black/50 border border-gray-700 p-3 rounded-lg text-white focus:outline-none focus:border-purple-500 transition"
-                  placeholder="What did you think of this movie?"
-                  rows="4"
-                  value={newComment}
-                  onChange={(e) => setNewComment(e.target.value)}
-                />
-                <button
-                  className="bg-white text-black font-bold px-6 py-2 rounded-lg mt-4 hover:bg-gray-200 transition w-full"
-                  onClick={async () => {
-                    if (!newRating || !newComment) return toast.warn("Please enter a rating and comment!");
-                    const review = {
-                      movieId: Number(id),
-                      rating: newRating,
-                      comment: newComment,
-                      user: user.name,
-                      date: new Date().toISOString().split("T")[0]
-                    };
-                    const res = await addReview(review);
-                    setReviews(prev => [...prev, res.data]);
-                    setNewComment("");
-                    setNewRating(0);
-                    toast.success("Review Submitted!");
-                  }}
-                >
-                  Submit
-                </button>
+                      {userReviewId ? "Update" : "Submit"}
+                    </button>
+                    {userReviewId && (
+                      <button
+                        className="text-gray-400 text-sm mt-2 hover:text-white w-full"
+                        onClick={() => {
+                          setUserReviewId(null);
+                          setNewRating(0);
+                          setNewComment("");
+                        }}
+                      >
+                        Cancel Edit
+                      </button>
+                    )}
+                  </>
+                )}
               </>
             ) : (
               <div className="text-center py-10">
@@ -335,23 +397,45 @@ export default function Details() {
               <div key={r.id} className="bg-[#1a1a1d] p-4 rounded-xl border border-gray-800/50">
                 <div className="flex justify-between items-start">
                   <div>
-                    <span className="font-bold text-gray-300">User</span>
+                    <span className="font-bold text-gray-300">{r.user}</span>
                     <span className="text-xs text-gray-500 ml-2">{r.date}</span>
                   </div>
                   <span className="text-yellow-400 font-bold text-sm">★ {r.rating}/10</span>
                 </div>
                 <p className="mt-2 text-gray-300 text-sm leading-relaxed">{r.comment}</p>
-                <button
-                  onClick={() => {
-                    deleteReview(r.id).then(() =>
-                      setReviews(prev => prev.filter(x => x.id !== r.id))
-                    );
-                    toast.info("Review deleted");
-                  }}
-                  className="text-red-500/50 hover:text-red-500 text-xs mt-3 transition"
-                >
-                  Delete
-                </button>
+                {user && user.name === r.user && (
+                  <div className="flex gap-3 mt-3">
+                    <button
+                      onClick={() => {
+                        setUserReviewId(r.id);
+                        setNewRating(r.rating);
+                        setNewComment(r.comment);
+                        document.getElementById("review-form")?.scrollIntoView({ behavior: "smooth" });
+                      }}
+                      className="text-purple-400 hover:text-purple-300 text-xs transition"
+                    >
+                      Edit
+                    </button>
+                    <button
+                      onClick={() => {
+                        if (window.confirm("Are you sure you want to delete this review?")) {
+                          deleteReview(r.id).then(() => {
+                            setReviews(prev => prev.filter(x => x.id !== r.id));
+                            if (userReviewId === r.id) {
+                              setUserReviewId(null);
+                              setNewRating(0);
+                              setNewComment("");
+                            }
+                          });
+                          toast.info("Review deleted");
+                        }
+                      }}
+                      className="text-red-500/50 hover:text-red-500 text-xs transition"
+                    >
+                      Delete
+                    </button>
+                  </div>
+                )}
               </div>
             ))}
           </div>

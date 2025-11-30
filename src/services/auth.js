@@ -16,3 +16,8 @@ export const checkEmailExists = async (email) => {
   const response = await api.get(`/users?email=${email}`);
   return response.data.length > 0;
 };
+
+export const updateUser = async (id, userData) => {
+  const response = await api.put(`/users/${id}`, userData);
+  return response.data;
+};

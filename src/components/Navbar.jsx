@@ -73,9 +73,9 @@ export default function Navbar() {
 
         {user ? (
           <div className="flex items-center gap-4">
-            <span className="text-sm font-medium text-purple-400">
+            <Link to="/dashboard" className="text-sm font-medium text-purple-400 hover:text-purple-300 transition">
               {user.name}
-            </span>
+            </Link>
             <button
               onClick={handleLogout}
               className="text-gray-300 hover:text-red-500 hover:scale-110 transition-transform"
@@ -90,8 +90,8 @@ export default function Navbar() {
             <Link
               to="/login"
               className={`px-4 py-1 text-sm font-medium transition-colors rounded ${location.pathname === "/register"
-                  ? "text-purple-400 border border-purple-400 hover:bg-purple-400 hover:text-white"
-                  : "text-white bg-purple-600 hover:bg-purple-700"
+                ? "text-purple-400 border border-purple-400 hover:bg-purple-400 hover:text-white"
+                : "text-white bg-purple-600 hover:bg-purple-700"
                 }`}
             >
               Login
@@ -99,8 +99,8 @@ export default function Navbar() {
             <Link
               to="/register"
               className={`px-4 py-1 text-sm font-medium transition-colors rounded ${location.pathname === "/register"
-                  ? "text-white bg-purple-600 hover:bg-purple-700"
-                  : "text-purple-400 border border-purple-400 hover:bg-purple-400 hover:text-white"
+                ? "text-white bg-purple-600 hover:bg-purple-700"
+                : "text-purple-400 border border-purple-400 hover:bg-purple-400 hover:text-white"
                 }`}
             >
               Register

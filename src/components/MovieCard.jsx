@@ -43,7 +43,7 @@ export default function MovieCard({ movie }) {
 
       setSaved(true);
       setRecordId(res.data.id); // store internal ID
-      toast.success("✔ Added to Watchlist");
+      toast.success("Added to Watchlist");
 
     } else {
       // REMOVE MOVIE
@@ -51,7 +51,7 @@ export default function MovieCard({ movie }) {
         await api.delete(`/watchlist/${recordId}`);
         setSaved(false);
         setRecordId(null);
-        toast.warn("❌ Removed from Watchlist");
+        toast.warn("Removed from Watchlist");
       }
     }
   };

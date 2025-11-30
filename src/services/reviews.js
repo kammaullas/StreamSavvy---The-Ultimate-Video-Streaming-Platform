@@ -10,3 +10,9 @@ export const addReview = (review) =>
 
 export const deleteReview = (id) =>
   axios.delete(`${API}/${id}`);
+
+export const updateReview = (id, review) =>
+  axios.put(`${API}/${id}`, review);
+
+export const getUserReviews = (username) =>
+  axios.get(`${API}?user=${username}`);
