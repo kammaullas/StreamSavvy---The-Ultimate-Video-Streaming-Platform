@@ -28,7 +28,19 @@ const tmdb = {
     axios.get(`${BASE}/movie/${id}/similar?api_key=${KEY}&language=en-US`),
 
   getVideos: (id) =>
-    axios.get(`${BASE}/movie/${id}/videos?api_key=${KEY}&language=en-US`)
+    axios.get(`${BASE}/movie/${id}/videos?api_key=${KEY}&language=en-US`),
+
+  // ---------------- DISCOVER / FILTERS ----------------
+  getGenres: () =>
+    axios.get(`${BASE}/genre/movie/list?api_key=${KEY}&language=en-US`),
+
+  discover: (params) => {
+    let query = `${BASE}/discover/movie?api_key=${KEY}&language=en-US&sort_by=popularity.desc`;
+    if (params.with_genres) query += `&with_genres=${params.with_genres}`;
+    if (params.primary_release_year) query += `&primary_release_year=${params.primary_release_year}`;
+    if (params.vote_average_gte) query += `&vote_average.gte=${params.vote_average_gte}`;
+    return axios.get(query);
+  }
 };
 
 export default tmdb;
