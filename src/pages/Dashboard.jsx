@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useAuth } from "../context/AuthContext";
-import { getUserReviews, deleteReview } from "../services/reviews";
+import { getUserReviews, deleteReview, getReviewsByUserId } from "../services/reviews";
 import tmdb, { imageUrl } from "../services/tmdb";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
@@ -26,7 +26,8 @@ export default function Dashboard() {
 
     const fetchReviews = async () => {
         try {
-            const res = await getUserReviews(user.name);
+            // Fetch by User ID (stable) instead of Name (mutable)
+            const res = await getReviewsByUserId(user.id);
             const userReviews = res.data;
 
             // Fetch movie details for each review

@@ -9,11 +9,17 @@ import { toast } from "react-toastify";
  *  - title
  *  - poster_path
  *  - vote_average
+ * userId: ID of the logged-in user
  */
-export async function addToWatchlist(movie) {
+export async function addToWatchlist(movie, userId) {
+  if (!userId) {
+    console.error("addToWatchlist: No userId provided");
+    return { status: "error", message: "User not logged in" };
+  }
+
   try {
-    // Check for duplicates
-    const existing = await api.get(`/watchlist?tmdb_id=${movie.id}`);
+    // Check for duplicates for this specific user
+    const existing = await api.get(`/watchlist?tmdb_id=${movie.id}&userId=${userId}`);
     if (existing.data.length > 0) {
       return { status: "exists" };
     }
@@ -23,6 +29,7 @@ export async function addToWatchlist(movie) {
       title: movie.title,
       poster_path: movie.poster_path,
       vote_average: movie.vote_average,
+      userId: userId, // Associate with user
     };
 
     await api.post("/watchlist", payload);
@@ -55,11 +62,13 @@ export async function removeFromWatchlistRecordId(recordId) {
 }
 
 /**
- * Check if movie is already in watchlist
+ * Check if movie is already in watchlist for a specific user
  */
-export async function isInWatchlist(tmdbId) {
+export async function isInWatchlist(tmdbId, userId) {
+  if (!userId) return null;
+
   try {
-    const res = await api.get(`/watchlist?tmdb_id=${tmdbId}`);
+    const res = await api.get(`/watchlist?tmdb_id=${tmdbId}&userId=${userId}`);
     return res.data.length > 0 ? res.data[0] : null;
   } catch {
     return null;

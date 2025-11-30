@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { imageUrl } from "../services/tmdb";
 import { FaHeart } from "react-icons/fa";
-import api from "../services/api";
+import { addToWatchlist, removeFromWatchlistRecordId, isInWatchlist } from "../utils/watchlist";
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import { useAuth } from "../context/AuthContext";
@@ -13,15 +13,21 @@ export default function MovieCard({ movie }) {
 
   // CHECK IF MOVIE ALREADY EXISTS IN WATCHLIST
   useEffect(() => {
-    api.get(`/watchlist?tmdb_id=${movie.id}`)
-      .then(res => {
-        if (res.data.length > 0) {
+    if (user && movie) {
+      isInWatchlist(movie.id, user.id).then((record) => {
+        if (record) {
           setSaved(true);
-          setRecordId(res.data[0].id); // JSON-server internal id
+          setRecordId(record.id);
+        } else {
+          setSaved(false);
+          setRecordId(null);
         }
-      })
-      .catch(err => console.log(err));
-  }, [movie.id]);
+      });
+    } else {
+      setSaved(false);
+      setRecordId(null);
+    }
+  }, [movie.id, user]);
 
   // HANDLE HEART CLICK
   const handleHeartClick = async (e) => {
@@ -34,24 +40,25 @@ export default function MovieCard({ movie }) {
 
     if (!saved) {
       // ADD MOVIE
-      const res = await api.post("/watchlist", {
-        tmdb_id: movie.id,
-        title: movie.title,
-        poster_path: movie.poster_path,
-        vote_average: movie.vote_average
-      });
-
-      setSaved(true);
-      setRecordId(res.data.id); // store internal ID
-      toast.success("Added to Watchlist");
-
+      const res = await addToWatchlist(movie, user.id);
+      if (res.status === "added") {
+        setSaved(true);
+        // Re-check to get the new record ID
+        const newRecord = await isInWatchlist(movie.id, user.id);
+        if (newRecord) setRecordId(newRecord.id);
+        toast.success("Added to Watchlist");
+      } else if (res.status === "exists") {
+        toast.info("Already in Watchlist");
+      }
     } else {
       // REMOVE MOVIE
       if (recordId) {
-        await api.delete(`/watchlist/${recordId}`);
-        setSaved(false);
-        setRecordId(null);
-        toast.warn("Removed from Watchlist");
+        const res = await removeFromWatchlistRecordId(recordId);
+        if (res.status === "removed") {
+          setSaved(false);
+          setRecordId(null);
+          toast.warn("Removed from Watchlist");
+        }
       }
     }
   };

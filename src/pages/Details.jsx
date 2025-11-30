@@ -1,4 +1,3 @@
-// src/pages/Details.jsx
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import tmdb, { imageUrl } from "../services/tmdb";
@@ -9,7 +8,6 @@ import {
   isInWatchlist
 } from "../utils/watchlist";
 import { getCachedMovie, saveMovieToCache } from "../utils/cache";
-// ADDED: Chevron Icons
 import { FaArrowLeft, FaHeart, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { toast } from "react-toastify";
 import { useAuth } from "../context/AuthContext";
@@ -48,9 +46,13 @@ export default function Details() {
 
   useEffect(() => {
     loadMovie();
-    isInWatchlist(id).then(setWatchlistRecord);
+    if (user) {
+      isInWatchlist(id, user.id).then(setWatchlistRecord);
+    } else {
+      setWatchlistRecord(null);
+    }
     getReviews(id).then(res => setReviews(res.data));
-  }, [id]);
+  }, [id, user]);
 
   useEffect(() => {
     if (user && reviews.length > 0) {
@@ -112,10 +114,10 @@ export default function Details() {
       toast.info("Removed from Watchlist");
       setWatchlistRecord(null);
     } else {
-      const res = await addToWatchlist(movie);
+      const res = await addToWatchlist(movie, user.id);
       if (res.status === "added") {
         toast.success("Added to Watchlist");
-        const newRec = await isInWatchlist(movie.id);
+        const newRec = await isInWatchlist(movie.id, user.id);
         setWatchlistRecord(newRec);
       }
     }
@@ -333,6 +335,7 @@ export default function Details() {
                           rating: newRating,
                           comment: newComment,
                           user: user.name,
+                          userId: user.id,
                           date: new Date().toISOString().split("T")[0]
                         };
 

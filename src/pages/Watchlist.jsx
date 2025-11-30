@@ -4,15 +4,23 @@ import { Link } from "react-router-dom";
 import api from "../services/api";
 import { toast } from "react-toastify";
 import { removeFromWatchlistRecordId } from "../utils/watchlist";
+import { useAuth } from "../context/AuthContext";
 
 export default function Watchlist() {
+  const { user } = useAuth();
   const [list, setList] = useState([]);
   const [loading, setLoading] = useState(true);
 
   const load = async () => {
+    if (!user) {
+      setList([]);
+      setLoading(false);
+      return;
+    }
+
     try {
       setLoading(true);
-      const res = await api.get("/watchlist");
+      const res = await api.get(`/watchlist?userId=${user.id}`);
       setList(Array.isArray(res.data) ? res.data : []);
     } catch (err) {
       console.error("LOAD ERROR:", err);
@@ -28,7 +36,7 @@ export default function Watchlist() {
     const handler = () => load();
     window.addEventListener("watchlist-updated", handler);
     return () => window.removeEventListener("watchlist-updated", handler);
-  }, []);
+  }, [user]); // Reload when user changes
 
   const remove = async (recordId) => {
     const prev = [...list];

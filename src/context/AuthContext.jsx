@@ -64,16 +64,24 @@ export const AuthProvider = ({ children }) => {
 
     const updateUserProfile = async (updatedData) => {
         try {
-            // Merge existing user data with updates to ensure we don't lose fields (like id, password if not updating)
-            // Ideally backend handles partial updates, but PUT usually replaces.
-            // We should pass everything or ensure backend supports PATCH.
-            // json-server PUT replaces the item. So we need to merge here or pass full object.
-            // We'll assume updatedData contains what we want to change, and we merge with current user.
+            // 1. Update User Profile
             const fullUserData = { ...user, ...updatedData };
-
             const updatedUser = await updateUser(user.id, fullUserData);
             setUser(updatedUser);
             localStorage.setItem("user", JSON.stringify(updatedUser));
+
+            // 2. Propagate Name Change to Reviews (if name changed)
+            if (updatedData.name && updatedData.name !== user.name) {
+                const { getReviewsByUserId, updateReview } = await import("../services/reviews");
+                const userReviewsRes = await getReviewsByUserId(user.id);
+                const userReviews = userReviewsRes.data;
+
+                // Update each review with new name
+                await Promise.all(userReviews.map(review =>
+                    updateReview(review.id, { ...review, user: updatedData.name })
+                ));
+            }
+
             toast.success("Profile updated successfully!");
             return true;
         } catch (error) {

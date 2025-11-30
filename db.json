@@ -11,6 +11,12 @@
       "name": "Ullas",
       "email": "ullas@gmail.com",
       "password": "123456"
+    },
+    {
+      "id": "32cf",
+      "name": "Siva Sai",
+      "email": "sivasai@gmail.com",
+      "password": "123456"
     }
   ],
   "movies": [
@@ -44,11 +50,28 @@
   ],
   "watchlist": [
     {
-      "id": "5f34",
-      "tmdb_id": 967941,
-      "title": "Wicked: For Good",
-      "poster_path": "/si9tolnefLSUKaqQEGz1bWArOaL.jpg",
-      "vote_average": 6.774
+      "id": "b07d",
+      "tmdb_id": 1419406,
+      "title": "The Shadow's Edge",
+      "poster_path": "/e0RU6KpdnrqFxDKlI3NOqN8nHL6.jpg",
+      "vote_average": 6.3,
+      "userId": "bef7"
+    },
+    {
+      "id": "b7f1",
+      "tmdb_id": 1309012,
+      "title": "Altered",
+      "poster_path": "/6QlAcGRaUrgHcZ4WTBh5lsPnzKx.jpg",
+      "vote_average": 6.4,
+      "userId": "bef7"
+    },
+    {
+      "id": "475d",
+      "tmdb_id": 1419406,
+      "title": "The Shadow's Edge",
+      "poster_path": "/e0RU6KpdnrqFxDKlI3NOqN8nHL6.jpg",
+      "vote_average": 6.3,
+      "userId": "539a"
     }
   ],
   "movie_cache": [
@@ -4235,7 +4258,7 @@
       "vote_count": 123
     },
     {
-      "id": 31507,
+      "id": "31507",
       "adult": false,
       "backdrop_path": "/aE9zfMnG4kGBf4SEyUZ5ehPsb6K.jpg",
       "belongs_to_collection": null,
@@ -4307,7 +4330,7 @@
       "vote_count": 139
     },
     {
-      "id": 155,
+      "id": "155",
       "adult": false,
       "backdrop_path": "/dqK9Hag1054tghRQSqLSfrkvQnA.jpg",
       "belongs_to_collection": {
@@ -4404,7 +4427,7 @@
       "vote_count": 34756
     },
     {
-      "id": 155,
+      "id": "155",
       "adult": false,
       "backdrop_path": "/dqK9Hag1054tghRQSqLSfrkvQnA.jpg",
       "belongs_to_collection": {
@@ -4501,7 +4524,7 @@
       "vote_count": 34756
     },
     {
-      "id": 430,
+      "id": "430",
       "adult": false,
       "backdrop_path": "/4safDVSZx7a4I1TQoSyz6E1agzM.jpg",
       "belongs_to_collection": null,
@@ -4570,7 +4593,7 @@
       "vote_count": 404
     },
     {
-      "id": 430,
+      "id": "430",
       "adult": false,
       "backdrop_path": "/4safDVSZx7a4I1TQoSyz6E1agzM.jpg",
       "belongs_to_collection": null,
@@ -4637,6 +4660,138 @@
       "video": false,
       "vote_average": 7.5,
       "vote_count": 404
+    },
+    {
+      "id": 1433719,
+      "adult": false,
+      "backdrop_path": "/kyp7PSCKPZKGosthRbjfXPm8gJg.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt35669717",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "High Ground",
+      "overview": "When a mysterious prisoner lands in jail, a border town sheriff faces the wrath of a brutal cartel.",
+      "popularity": 150.2532,
+      "poster_path": "/cqF7xuZWbBYXWHsp1I1H5PwujPs.jpg",
+      "production_companies": [
+        {
+          "id": 177095,
+          "logo_path": "/nfwWCvMNaK687bjyM7un8p7ilz0.png",
+          "name": "SP Media Group",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2025-03-17",
+      "revenue": 0,
+      "runtime": 92,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        },
+        {
+          "english_name": "Portuguese",
+          "iso_639_1": "pt",
+          "name": "Português"
+        }
+      ],
+      "status": "Released",
+      "tagline": "",
+      "title": "High Ground",
+      "video": false,
+      "vote_average": 6,
+      "vote_count": 33
+    },
+    {
+      "id": 1433719,
+      "adult": false,
+      "backdrop_path": "/kyp7PSCKPZKGosthRbjfXPm8gJg.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt35669717",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "High Ground",
+      "overview": "When a mysterious prisoner lands in jail, a border town sheriff faces the wrath of a brutal cartel.",
+      "popularity": 150.2532,
+      "poster_path": "/cqF7xuZWbBYXWHsp1I1H5PwujPs.jpg",
+      "production_companies": [
+        {
+          "id": 177095,
+          "logo_path": "/nfwWCvMNaK687bjyM7un8p7ilz0.png",
+          "name": "SP Media Group",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2025-03-17",
+      "revenue": 0,
+      "runtime": 92,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        },
+        {
+          "english_name": "Portuguese",
+          "iso_639_1": "pt",
+          "name": "Português"
+        }
+      ],
+      "status": "Released",
+      "tagline": "",
+      "title": "High Ground",
+      "video": false,
+      "vote_average": 6,
+      "vote_count": 33
     }
   ],
   "reviews": [
@@ -4645,6 +4800,7 @@
       "rating": 8,
       "comment": "Superrrr",
       "user": "Sandeep",
+      "userId": "bef7",
       "date": "2025-11-30",
       "id": "9cf6"
     },
@@ -4654,6 +4810,7 @@
       "rating": 10,
       "comment": "Good!!!",
       "user": "Ullas",
+      "userId": "539a",
       "date": "2025-11-30"
     }
   ]

@@ -16,3 +16,6 @@ export const updateReview = (id, review) =>
 
 export const getUserReviews = (username) =>
   axios.get(`${API}?user=${username}`);
+
+export const getReviewsByUserId = (userId) =>
+  axios.get(`${API}?userId=${userId}`);
