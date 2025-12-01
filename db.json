@@ -50,28 +50,76 @@
   ],
   "watchlist": [
     {
-      "id": "b07d",
-      "tmdb_id": 1419406,
-      "title": "The Shadow's Edge",
-      "poster_path": "/e0RU6KpdnrqFxDKlI3NOqN8nHL6.jpg",
-      "vote_average": 6.3,
-      "userId": "bef7"
-    },
-    {
-      "id": "b7f1",
-      "tmdb_id": 1309012,
-      "title": "Altered",
-      "poster_path": "/6QlAcGRaUrgHcZ4WTBh5lsPnzKx.jpg",
-      "vote_average": 6.4,
-      "userId": "bef7"
-    },
-    {
       "id": "475d",
       "tmdb_id": 1419406,
       "title": "The Shadow's Edge",
       "poster_path": "/e0RU6KpdnrqFxDKlI3NOqN8nHL6.jpg",
       "vote_average": 6.3,
       "userId": "539a"
+    },
+    {
+      "id": "0cdc",
+      "tmdb_id": 1246049,
+      "title": "Dracula",
+      "poster_path": "/ykyRfv7JDofLxXLAwtLXaSuaFfM.jpg",
+      "vote_average": 7,
+      "userId": "bef7"
+    },
+    {
+      "id": "07bd",
+      "tmdb_id": 967941,
+      "title": "Wicked: For Good",
+      "poster_path": "/si9tolnefLSUKaqQEGz1bWArOaL.jpg",
+      "vote_average": 6.777,
+      "userId": "539a"
+    },
+    {
+      "id": "75a9",
+      "tmdb_id": 238,
+      "title": "The Godfather",
+      "poster_path": "/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+      "vote_average": 8.684,
+      "userId": "539a"
+    },
+    {
+      "id": "169b",
+      "tmdb_id": 278,
+      "title": "The Shawshank Redemption",
+      "poster_path": "/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+      "vote_average": 8.713,
+      "userId": "32cf"
+    },
+    {
+      "id": "7e6b",
+      "tmdb_id": 155,
+      "title": "The Dark Knight",
+      "poster_path": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "vote_average": 8.525,
+      "userId": "32cf"
+    },
+    {
+      "id": "ea97",
+      "tmdb_id": 1033462,
+      "title": "Bureau 749",
+      "poster_path": "/flykCMw22y6yv8vKnBjmsW3pneo.jpg",
+      "vote_average": 5.814,
+      "userId": "32cf"
+    },
+    {
+      "id": "d0be",
+      "tmdb_id": 755898,
+      "title": "War of the Worlds",
+      "poster_path": "/yvirUYrva23IudARHn3mMGVxWqM.jpg",
+      "vote_average": 4.3,
+      "userId": "bef7"
+    },
+    {
+      "id": "1e3c",
+      "tmdb_id": 1469354,
+      "title": "Border Hunters",
+      "poster_path": "/6TNFZnJ5CU0uFQxGaO9dbqriiI7.jpg",
+      "vote_average": 8.8,
+      "userId": "bef7"
     }
   ],
   "movie_cache": [
@@ -4662,7 +4710,7 @@
       "vote_count": 404
     },
     {
-      "id": 1433719,
+      "id": "1433719",
       "adult": false,
       "backdrop_path": "/kyp7PSCKPZKGosthRbjfXPm8gJg.jpg",
       "belongs_to_collection": null,
@@ -4728,7 +4776,7 @@
       "vote_count": 33
     },
     {
-      "id": 1433719,
+      "id": "1433719",
       "adult": false,
       "backdrop_path": "/kyp7PSCKPZKGosthRbjfXPm8gJg.jpg",
       "belongs_to_collection": null,
@@ -4792,26 +4840,502 @@
       "video": false,
       "vote_average": 6,
       "vote_count": 33
+    },
+    {
+      "id": 1448560,
+      "adult": false,
+      "backdrop_path": "/pAyImoslSnpMgjRwhaS5ZEdl8UI.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt36153493",
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_title": "Wildcat",
+      "overview": "An ex-black ops team reunite to pull off a desperate heist in order to save the life of their leader’s eight-year-old daughter.",
+      "popularity": 267.6062,
+      "poster_path": "/h893ImjM6Fsv5DFhKJdlZFZIJno.jpg",
+      "production_companies": [
+        {
+          "id": 154063,
+          "logo_path": "/r4anaxYa8OL5KaUbU35VkrIe88L.png",
+          "name": "Capstone Pictures",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "GB",
+          "name": "United Kingdom"
+        }
+      ],
+      "release_date": "2025-11-19",
+      "revenue": 0,
+      "runtime": 99,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "",
+      "title": "Wildcat",
+      "video": false,
+      "vote_average": 6.4,
+      "vote_count": 19
+    },
+    {
+      "id": 1448560,
+      "adult": false,
+      "backdrop_path": "/pAyImoslSnpMgjRwhaS5ZEdl8UI.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt36153493",
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_title": "Wildcat",
+      "overview": "An ex-black ops team reunite to pull off a desperate heist in order to save the life of their leader’s eight-year-old daughter.",
+      "popularity": 267.6062,
+      "poster_path": "/h893ImjM6Fsv5DFhKJdlZFZIJno.jpg",
+      "production_companies": [
+        {
+          "id": 154063,
+          "logo_path": "/r4anaxYa8OL5KaUbU35VkrIe88L.png",
+          "name": "Capstone Pictures",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "GB",
+          "name": "United Kingdom"
+        }
+      ],
+      "release_date": "2025-11-19",
+      "revenue": 0,
+      "runtime": 99,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "",
+      "title": "Wildcat",
+      "video": false,
+      "vote_average": 6.4,
+      "vote_count": 19
+    },
+    {
+      "id": 454626,
+      "adult": false,
+      "backdrop_path": "/stmYfCUGd8Iy6kAMBr6AmWqx8Bq.jpg",
+      "belongs_to_collection": {
+        "id": 720879,
+        "name": "Sonic the Hedgehog Collection",
+        "poster_path": "/1qtAVIWnx4vxmFEnZ3fDDbtMt8o.jpg",
+        "backdrop_path": "/ggDVF2DhqIQjJI0zUqsWMS2WTcF.jpg"
+      },
+      "budget": 85000000,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 10751,
+          "name": "Family"
+        }
+      ],
+      "homepage": "https://www.paramountmovies.com/movies/sonic-the-hedgehog",
+      "imdb_id": "tt3794354",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Sonic the Hedgehog",
+      "overview": "Powered with incredible speed, Sonic The Hedgehog embraces his new home on Earth. That is, until Sonic sparks the attention of super-uncool evil genius Dr. Robotnik. Now it’s super-villain vs. super-sonic in an all-out race across the globe to stop Robotnik from using Sonic’s unique power for world domination.",
+      "popularity": 9.0431,
+      "poster_path": "/aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg",
+      "production_companies": [
+        {
+          "id": 333,
+          "logo_path": "/5xUJfzPZ8jWJUDzYtIeuPO4qPIa.png",
+          "name": "Original Film",
+          "origin_country": "US"
+        },
+        {
+          "id": 10644,
+          "logo_path": "/ocLZIdYJBppuCt1rhYEb2jbpt5F.png",
+          "name": "Blur Studio",
+          "origin_country": "US"
+        },
+        {
+          "id": 77884,
+          "logo_path": "/dP2lxVNctD5Cried0IWVqgrO2o9.png",
+          "name": "Marza Animation Planet",
+          "origin_country": "JP"
+        },
+        {
+          "id": 4,
+          "logo_path": "/jay6WcMgagAklUt7i9Euwj1pzTF.png",
+          "name": "Paramount Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 113750,
+          "logo_path": "/A3QVZ9Ah0yI2d2GiXUFpdlbTgyr.png",
+          "name": "SEGA",
+          "origin_country": "JP"
+        },
+        {
+          "id": 168701,
+          "logo_path": "/vWdZFT4V64CCv12D10m44duQjyg.png",
+          "name": "SEGA of America",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "JP",
+          "name": "Japan"
+        },
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2020-02-12",
+      "revenue": 319715683,
+      "runtime": 99,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "A whole new speed of hero.",
+      "title": "Sonic the Hedgehog",
+      "video": false,
+      "vote_average": 7.296,
+      "vote_count": 10149
+    },
+    {
+      "id": 454626,
+      "adult": false,
+      "backdrop_path": "/stmYfCUGd8Iy6kAMBr6AmWqx8Bq.jpg",
+      "belongs_to_collection": {
+        "id": 720879,
+        "name": "Sonic the Hedgehog Collection",
+        "poster_path": "/1qtAVIWnx4vxmFEnZ3fDDbtMt8o.jpg",
+        "backdrop_path": "/ggDVF2DhqIQjJI0zUqsWMS2WTcF.jpg"
+      },
+      "budget": 85000000,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 10751,
+          "name": "Family"
+        }
+      ],
+      "homepage": "https://www.paramountmovies.com/movies/sonic-the-hedgehog",
+      "imdb_id": "tt3794354",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Sonic the Hedgehog",
+      "overview": "Powered with incredible speed, Sonic The Hedgehog embraces his new home on Earth. That is, until Sonic sparks the attention of super-uncool evil genius Dr. Robotnik. Now it’s super-villain vs. super-sonic in an all-out race across the globe to stop Robotnik from using Sonic’s unique power for world domination.",
+      "popularity": 9.0431,
+      "poster_path": "/aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg",
+      "production_companies": [
+        {
+          "id": 333,
+          "logo_path": "/5xUJfzPZ8jWJUDzYtIeuPO4qPIa.png",
+          "name": "Original Film",
+          "origin_country": "US"
+        },
+        {
+          "id": 10644,
+          "logo_path": "/ocLZIdYJBppuCt1rhYEb2jbpt5F.png",
+          "name": "Blur Studio",
+          "origin_country": "US"
+        },
+        {
+          "id": 77884,
+          "logo_path": "/dP2lxVNctD5Cried0IWVqgrO2o9.png",
+          "name": "Marza Animation Planet",
+          "origin_country": "JP"
+        },
+        {
+          "id": 4,
+          "logo_path": "/jay6WcMgagAklUt7i9Euwj1pzTF.png",
+          "name": "Paramount Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 113750,
+          "logo_path": "/A3QVZ9Ah0yI2d2GiXUFpdlbTgyr.png",
+          "name": "SEGA",
+          "origin_country": "JP"
+        },
+        {
+          "id": 168701,
+          "logo_path": "/vWdZFT4V64CCv12D10m44duQjyg.png",
+          "name": "SEGA of America",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "JP",
+          "name": "Japan"
+        },
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2020-02-12",
+      "revenue": 319715683,
+      "runtime": 99,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "A whole new speed of hero.",
+      "title": "Sonic the Hedgehog",
+      "video": false,
+      "vote_average": 7.296,
+      "vote_count": 10149
+    },
+    {
+      "id": 122783,
+      "adult": false,
+      "backdrop_path": "/cuSTQbQaGeXMavS5PGcqMVgR8CS.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 10749,
+          "name": "Romance"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt2334727",
+      "origin_country": [
+        "IN"
+      ],
+      "original_language": "te",
+      "original_title": "Lovely",
+      "overview": "The story is about two youngsters a boy and girl and their relationship. The story begins with Kittu (Vennela Kishore), who is addicted to Facebook. He develops the friendship with Lalli (Chinmayee). They both become good friends and decide to meet each another. When the time for meeting comes up, both of them develop cold feet. While Kittu sends his friend Akash (Aadi) to meet Lalli, she, on the other hand, sends her friend Lavanya (Shanvi) to meet Kittu.When Akash and Lavanya meet, it is love at first sight for them. Akash is now in love with Lavanya and she too reciprocates his feelings. Here comes the twist. Maharadhi (Rajendra Prasad) father of Lavanya does not approve love of Akash and Lovely. The reason is he does not like the behavior and attitude of Akash.",
+      "popularity": 25.9009,
+      "poster_path": "/eKC3ZDRVvUERNQ9gPOBwux3U3N2.jpg",
+      "production_companies": [],
+      "production_countries": [
+        {
+          "iso_3166_1": "IN",
+          "name": "India"
+        }
+      ],
+      "release_date": "2012-03-30",
+      "revenue": 0,
+      "runtime": 148,
+      "spoken_languages": [
+        {
+          "english_name": "Telugu",
+          "iso_639_1": "te",
+          "name": "తెలుగు"
+        }
+      ],
+      "status": "Released",
+      "tagline": "",
+      "title": "Lovely",
+      "video": false,
+      "vote_average": 5.8,
+      "vote_count": 7
+    },
+    {
+      "id": 122783,
+      "adult": false,
+      "backdrop_path": "/cuSTQbQaGeXMavS5PGcqMVgR8CS.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 10749,
+          "name": "Romance"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt2334727",
+      "origin_country": [
+        "IN"
+      ],
+      "original_language": "te",
+      "original_title": "Lovely",
+      "overview": "The story is about two youngsters a boy and girl and their relationship. The story begins with Kittu (Vennela Kishore), who is addicted to Facebook. He develops the friendship with Lalli (Chinmayee). They both become good friends and decide to meet each another. When the time for meeting comes up, both of them develop cold feet. While Kittu sends his friend Akash (Aadi) to meet Lalli, she, on the other hand, sends her friend Lavanya (Shanvi) to meet Kittu.When Akash and Lavanya meet, it is love at first sight for them. Akash is now in love with Lavanya and she too reciprocates his feelings. Here comes the twist. Maharadhi (Rajendra Prasad) father of Lavanya does not approve love of Akash and Lovely. The reason is he does not like the behavior and attitude of Akash.",
+      "popularity": 25.9009,
+      "poster_path": "/eKC3ZDRVvUERNQ9gPOBwux3U3N2.jpg",
+      "production_companies": [],
+      "production_countries": [
+        {
+          "iso_3166_1": "IN",
+          "name": "India"
+        }
+      ],
+      "release_date": "2012-03-30",
+      "revenue": 0,
+      "runtime": 148,
+      "spoken_languages": [
+        {
+          "english_name": "Telugu",
+          "iso_639_1": "te",
+          "name": "తెలుగు"
+        }
+      ],
+      "status": "Released",
+      "tagline": "",
+      "title": "Lovely",
+      "video": false,
+      "vote_average": 5.8,
+      "vote_count": 7
     }
   ],
   "reviews": [
     {
       "movieId": 1309012,
       "rating": 8,
-      "comment": "Superrrr",
+      "comment": "One of the best movie i've watched!!!",
       "user": "Sandeep",
       "userId": "bef7",
-      "date": "2025-11-30",
+      "date": "2025-12-01",
       "id": "9cf6"
     },
     {
-      "id": "3629",
       "movieId": 1309012,
       "rating": 10,
-      "comment": "Good!!!",
+      "comment": "I Literally Loved Performances Of Leads!!!",
       "user": "Ullas",
       "userId": "539a",
-      "date": "2025-11-30"
+      "date": "2025-12-01",
+      "id": "3629"
+    },
+    {
+      "id": "210e",
+      "movieId": 1419406,
+      "rating": 9,
+      "comment": "Best Action Movie In Recent Times...",
+      "user": "Sandeep",
+      "userId": "bef7",
+      "date": "2025-12-01"
+    },
+    {
+      "id": "b841",
+      "movieId": 1062722,
+      "rating": 9,
+      "comment": "Recent Blockbuster!!!",
+      "user": "Sandeep",
+      "userId": "bef7",
+      "date": "2025-12-01"
+    },
+    {
+      "id": "cfb9",
+      "movieId": 1448560,
+      "rating": 6,
+      "comment": "Great Teamwork Episodes In the movie...",
+      "user": "Ullas",
+      "userId": "539a",
+      "date": "2025-12-01"
+    },
+    {
+      "id": "7fd0",
+      "movieId": 1539104,
+      "rating": 10,
+      "comment": "Action episodes are great and worth watching!!!",
+      "user": "Siva Sai",
+      "userId": "32cf",
+      "date": "2025-12-01"
+    },
+    {
+      "id": "494b",
+      "movieId": 454626,
+      "rating": 7,
+      "comment": "Animation scenes are brilliantly performed!!!",
+      "user": "Siva Sai",
+      "userId": "32cf",
+      "date": "2025-12-01"
+    },
+    {
+      "id": "4e39",
+      "movieId": 122783,
+      "rating": 9,
+      "comment": "One of the best romcom's man",
+      "user": "Siva Sai",
+      "userId": "32cf",
+      "date": "2025-12-01"
     }
   ]
 }
