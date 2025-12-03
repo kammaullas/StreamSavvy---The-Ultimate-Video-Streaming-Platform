@@ -35,34 +35,79 @@ StreamSavvy/
 ├── db.json              # Mock database containing video metadata
 ├── package.json         # Project dependencies and scripts
 └── vite.config.js       # Vite configuration settings
+```
+---
 
 ## ⚡ Getting Started
 
 Follow these steps to set up the project locally.
 
 ### Prerequisites
-
 Ensure you have the following installed:
-* **Node.js** (v14 or higher)
-* **npm** (Node Package Manager)
+* [Node.js](https://nodejs.org/) (v14 or higher)
+* npm (Node Package Manager)
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone [https://github.com/kammaullas/StreamSavvy---The-Ultimate-Video-Streaming-Platform.git](https://github.com/kammaullas/StreamSavvy---The-Ultimate-Video-Streaming-Platform.git)
-   cd StreamSavvy---The-Ultimate-Video-Streaming-Platform
-2. **Install Dependencies**
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/kammaullas/StreamSavvy---The-Ultimate-Video-Streaming-Platform.git](https://github.com/kammaullas/StreamSavvy---The-Ultimate-Video-Streaming-Platform.git)
+    cd StreamSavvy---The-Ultimate-Video-Streaming-Platform
+    ```
 
-  ```bash
-   npm install
+2.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
 
- 3. **Start the Development Server**
+3.  **Start the Development Server**
+    ```bash
+    npm run dev
+    ```
 
-```bash
-   npm run dev
-   4. **Start the Mock Backend (Optional) If the app requires the JSON server to be running separately to fetch data, run this in a new terminal window:**
+4.  **Start the Mock Backend (Optional)**
+    If the app requires the JSON server to be running separately to fetch data:
+    ```bash
+    npx json-server --watch db.json --port 3000
+    ```
 
-```bash
-  npx json-server --watch db.json --port 3000
-View the App Open your browser and navigate to http://localhost:5173 (or the port shown in your terminal).
+5.  **View the App**
+    Open your browser and navigate to `http://localhost:5173` (or the port shown in your terminal).
+
+---
+
+## 📸 Screenshots
+
+| Home Page | Video Player |
+|:---:|:---:|
+| ![Home](https://via.placeholder.com/400x200?text=Home+Page+UI) | ![Player](https://via.placeholder.com/400x200?text=Video+Player+UI) |
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to improve StreamSavvy:
+1.  Fork the Project
+2.  Create your Feature Branch
+    ```bash
+    git checkout -b feature/AmazingFeature
+    ```
+3.  Commit your Changes
+    ```bash
+    git commit -m 'Add some AmazingFeature'
+    ```
+4.  Push to the Branch
+    ```bash
+    git push origin feature/AmazingFeature
+    ```
+5.  Open a Pull Request
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<br />
+
+ your browser and navigate to http://localhost:5173 (or the port shown in your terminal).
