@@ -1,16 +1,37 @@
-# React + Vite
+# StreamSavvy - The Ultimate Video Streaming Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![StreamSavvy Banner](https://via.placeholder.com/1200x400?text=StreamSavvy+Preview)
 
-Currently, two official plugins are available:
+**StreamSavvy** is a modern, responsive video streaming application built with **React** and **Vite**. It offers a Netflix-like user experience where users can browse, search, and watch video content categorized by genres. The project utilizes a mock backend (`db.json`) to simulate API responses for dynamic content loading.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* **Responsive UI**: Seamless viewing experience across Desktop, Tablet, and Mobile.
+* **Hero Section**: Dynamic trending content banner with playback controls.
+* **Content Library**: Categorized rows (Trending, Action, Comedy, etc.) sourced from a database.
+* **Video Playback**: Integrated video player with play, pause, and volume controls.
+* **Search Functionality**: Real-time filtering to find movies or shows instantly.
+* **Mock Backend**: Uses `db.json` to simulate REST API endpoints for user data and video metadata.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+* **Frontend Framework**: [React.js](https://react.dev/)
+* **Build Tool**: [Vite](https://vitejs.dev/) (High-performance build & HMR)
+* **Styling**: CSS / Styled Components (Responsive Design)
+* **Data Simulation**: JSON Server / Local `db.json`
+* **State Management**: React Hooks (`useState`, `useEffect`)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```bash
+StreamSavvy/
+├── public/              # Static assets (favicons, images)
+├── src/
+│   ├── components/      # Reusable UI components (Navbar, Row, Banner)
+│   ├── pages/           # Main application pages (Home, Player)
+│   ├── App.jsx          # Main application entry point
+│   ├── main.jsx         # DOM rendering
+│   └── index.css        # Global styles
+├── db.json              # Mock database containing video metadata
+├── package.json         # Project dependencies and scripts
+└── vite.config.js       # Vite configuration settings
