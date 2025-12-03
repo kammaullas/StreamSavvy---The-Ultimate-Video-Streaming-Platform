@@ -58,14 +58,6 @@
       "userId": "539a"
     },
     {
-      "id": "0cdc",
-      "tmdb_id": 1246049,
-      "title": "Dracula",
-      "poster_path": "/ykyRfv7JDofLxXLAwtLXaSuaFfM.jpg",
-      "vote_average": 7,
-      "userId": "bef7"
-    },
-    {
       "id": "07bd",
       "tmdb_id": 967941,
       "title": "Wicked: For Good",
@@ -106,19 +98,27 @@
       "userId": "32cf"
     },
     {
-      "id": "d0be",
-      "tmdb_id": 755898,
-      "title": "War of the Worlds",
-      "poster_path": "/yvirUYrva23IudARHn3mMGVxWqM.jpg",
-      "vote_average": 4.3,
+      "id": "f0cb",
+      "tmdb_id": 19404,
+      "title": "Dilwale Dulhania Le Jayenge",
+      "poster_path": "/2CAL2433ZeIihfX1Hb2139CX0pW.jpg",
+      "vote_average": 8.5,
       "userId": "bef7"
     },
     {
-      "id": "1e3c",
-      "tmdb_id": 1469354,
-      "title": "Border Hunters",
-      "poster_path": "/6TNFZnJ5CU0uFQxGaO9dbqriiI7.jpg",
-      "vote_average": 8.8,
+      "id": "6c64",
+      "tmdb_id": 1219158,
+      "title": "Lover",
+      "poster_path": "/5rN7wzvM9oAR35sQVNUt8JuTDFS.jpg",
+      "vote_average": 7.286,
+      "userId": "bef7"
+    },
+    {
+      "id": "1c1c",
+      "tmdb_id": 18240,
+      "title": "The Proposal",
+      "poster_path": "/aEqtJDj8MvSDQwzggvcOfFTZMw.jpg",
+      "vote_average": 7.152,
       "userId": "bef7"
     }
   ],
@@ -4842,7 +4842,7 @@
       "vote_count": 33
     },
     {
-      "id": 1448560,
+      "id": "1448560",
       "adult": false,
       "backdrop_path": "/pAyImoslSnpMgjRwhaS5ZEdl8UI.jpg",
       "belongs_to_collection": null,
@@ -4903,7 +4903,7 @@
       "vote_count": 19
     },
     {
-      "id": 1448560,
+      "id": "1448560",
       "adult": false,
       "backdrop_path": "/pAyImoslSnpMgjRwhaS5ZEdl8UI.jpg",
       "belongs_to_collection": null,
@@ -4964,7 +4964,7 @@
       "vote_count": 19
     },
     {
-      "id": 454626,
+      "id": "454626",
       "adult": false,
       "backdrop_path": "/stmYfCUGd8Iy6kAMBr6AmWqx8Bq.jpg",
       "belongs_to_collection": {
@@ -5068,7 +5068,7 @@
       "vote_count": 10149
     },
     {
-      "id": 454626,
+      "id": "454626",
       "adult": false,
       "backdrop_path": "/stmYfCUGd8Iy6kAMBr6AmWqx8Bq.jpg",
       "belongs_to_collection": {
@@ -5172,7 +5172,7 @@
       "vote_count": 10149
     },
     {
-      "id": 122783,
+      "id": "122783",
       "adult": false,
       "backdrop_path": "/cuSTQbQaGeXMavS5PGcqMVgR8CS.jpg",
       "belongs_to_collection": null,
@@ -5218,7 +5218,7 @@
       "vote_count": 7
     },
     {
-      "id": 122783,
+      "id": "122783",
       "adult": false,
       "backdrop_path": "/cuSTQbQaGeXMavS5PGcqMVgR8CS.jpg",
       "belongs_to_collection": null,
@@ -5262,6 +5262,548 @@
       "video": false,
       "vote_average": 5.8,
       "vote_count": 7
+    },
+    {
+      "id": "949709",
+      "adult": false,
+      "backdrop_path": "/8lqfrOBQ2EcY7znD3LxTYcvlh25.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt17501870",
+      "origin_country": [
+        "CN",
+        "HK"
+      ],
+      "original_language": "zh",
+      "original_title": "危机航线",
+      "overview": "\"Anyone? There is ......\" A mysterious message from Gao Haojun comes from ten thousand meters in the air. A five-star A380 ultra-luxury airliner was hijacked on its international maiden voyage, and international security expert Gao Haojun stood up to a group of thugs, his daughter Xiaojun was trapped in the cabin, and Mike, the leader of the hijackers, threatened the lives of more than 800 people in the plane as a bargaining chip, and Xiaojun's mother, Fu Yuan, was also in danger. ...... Will the passengers on board be able to land safely and how should this crisis be resolved?",
+      "popularity": 253.9636,
+      "poster_path": "/v8ySgr4CE45SrrIt4PqqYc1diW6.jpg",
+      "production_companies": [
+        {
+          "id": 153330,
+          "logo_path": null,
+          "name": "寰宇娱乐有限公司",
+          "origin_country": ""
+        },
+        {
+          "id": 160606,
+          "logo_path": null,
+          "name": "Tianjin Maoyan Weiying Culture Media",
+          "origin_country": "CN"
+        },
+        {
+          "id": 233772,
+          "logo_path": null,
+          "name": "广州市英明文化传播有限公司",
+          "origin_country": ""
+        },
+        {
+          "id": 197030,
+          "logo_path": "/z9xtT1e3HunOnZUm3uGYb59eL7v.png",
+          "name": "Tao Piao Piao",
+          "origin_country": "CN"
+        },
+        {
+          "id": 139104,
+          "logo_path": null,
+          "name": "华文映像影视传媒有限公司",
+          "origin_country": "CN"
+        },
+        {
+          "id": 199649,
+          "logo_path": "/8UpFkfUlaVKKm2aI7KPkudACxni.png",
+          "name": "Weibo Corporation",
+          "origin_country": "CN"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "CN",
+          "name": "China"
+        }
+      ],
+      "release_date": "2024-09-29",
+      "revenue": 41923655,
+      "runtime": 115,
+      "spoken_languages": [
+        {
+          "english_name": "Mandarin",
+          "iso_639_1": "zh",
+          "name": "普通话"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Skyrocketing Heartbeat",
+      "title": "High Forces",
+      "video": false,
+      "vote_average": 6.1,
+      "vote_count": 22
+    },
+    {
+      "id": "949709",
+      "adult": false,
+      "backdrop_path": "/8lqfrOBQ2EcY7znD3LxTYcvlh25.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt17501870",
+      "origin_country": [
+        "CN",
+        "HK"
+      ],
+      "original_language": "zh",
+      "original_title": "危机航线",
+      "overview": "\"Anyone? There is ......\" A mysterious message from Gao Haojun comes from ten thousand meters in the air. A five-star A380 ultra-luxury airliner was hijacked on its international maiden voyage, and international security expert Gao Haojun stood up to a group of thugs, his daughter Xiaojun was trapped in the cabin, and Mike, the leader of the hijackers, threatened the lives of more than 800 people in the plane as a bargaining chip, and Xiaojun's mother, Fu Yuan, was also in danger. ...... Will the passengers on board be able to land safely and how should this crisis be resolved?",
+      "popularity": 253.9636,
+      "poster_path": "/v8ySgr4CE45SrrIt4PqqYc1diW6.jpg",
+      "production_companies": [
+        {
+          "id": 153330,
+          "logo_path": null,
+          "name": "寰宇娱乐有限公司",
+          "origin_country": ""
+        },
+        {
+          "id": 160606,
+          "logo_path": null,
+          "name": "Tianjin Maoyan Weiying Culture Media",
+          "origin_country": "CN"
+        },
+        {
+          "id": 233772,
+          "logo_path": null,
+          "name": "广州市英明文化传播有限公司",
+          "origin_country": ""
+        },
+        {
+          "id": 197030,
+          "logo_path": "/z9xtT1e3HunOnZUm3uGYb59eL7v.png",
+          "name": "Tao Piao Piao",
+          "origin_country": "CN"
+        },
+        {
+          "id": 139104,
+          "logo_path": null,
+          "name": "华文映像影视传媒有限公司",
+          "origin_country": "CN"
+        },
+        {
+          "id": 199649,
+          "logo_path": "/8UpFkfUlaVKKm2aI7KPkudACxni.png",
+          "name": "Weibo Corporation",
+          "origin_country": "CN"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "CN",
+          "name": "China"
+        }
+      ],
+      "release_date": "2024-09-29",
+      "revenue": 41923655,
+      "runtime": 115,
+      "spoken_languages": [
+        {
+          "english_name": "Mandarin",
+          "iso_639_1": "zh",
+          "name": "普通话"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Skyrocketing Heartbeat",
+      "title": "High Forces",
+      "video": false,
+      "vote_average": 6.1,
+      "vote_count": 22
+    },
+    {
+      "id": "19404",
+      "adult": false,
+      "backdrop_path": "/zQDFHYNVVVp9OAYSixYAG1SyX1l.jpg",
+      "belongs_to_collection": null,
+      "budget": 13200000,
+      "genres": [
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 10749,
+          "name": "Romance"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt0112870",
+      "origin_country": [
+        "IN"
+      ],
+      "original_language": "hi",
+      "original_title": "दिलवाले दुल्हनिया ले जायेंगे",
+      "overview": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.",
+      "popularity": 7.8509,
+      "poster_path": "/2CAL2433ZeIihfX1Hb2139CX0pW.jpg",
+      "production_companies": [
+        {
+          "id": 1569,
+          "logo_path": "/lvzN86o3jrP44DIvn4SMBLOl9PF.png",
+          "name": "Yash Raj Films",
+          "origin_country": "IN"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "IN",
+          "name": "India"
+        }
+      ],
+      "release_date": "1995-10-20",
+      "revenue": 100000000,
+      "runtime": 190,
+      "spoken_languages": [
+        {
+          "english_name": "Hindi",
+          "iso_639_1": "hi",
+          "name": "हिन्दी"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Come… Fall In love, All Over Again…",
+      "title": "Dilwale Dulhania Le Jayenge",
+      "video": false,
+      "vote_average": 8.5,
+      "vote_count": 4519
+    },
+    {
+      "id": "19404",
+      "adult": false,
+      "backdrop_path": "/zQDFHYNVVVp9OAYSixYAG1SyX1l.jpg",
+      "belongs_to_collection": null,
+      "budget": 13200000,
+      "genres": [
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 10749,
+          "name": "Romance"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt0112870",
+      "origin_country": [
+        "IN"
+      ],
+      "original_language": "hi",
+      "original_title": "दिलवाले दुल्हनिया ले जायेंगे",
+      "overview": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.",
+      "popularity": 7.8509,
+      "poster_path": "/2CAL2433ZeIihfX1Hb2139CX0pW.jpg",
+      "production_companies": [
+        {
+          "id": 1569,
+          "logo_path": "/lvzN86o3jrP44DIvn4SMBLOl9PF.png",
+          "name": "Yash Raj Films",
+          "origin_country": "IN"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "IN",
+          "name": "India"
+        }
+      ],
+      "release_date": "1995-10-20",
+      "revenue": 100000000,
+      "runtime": 190,
+      "spoken_languages": [
+        {
+          "english_name": "Hindi",
+          "iso_639_1": "hi",
+          "name": "हिन्दी"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Come… Fall In love, All Over Again…",
+      "title": "Dilwale Dulhania Le Jayenge",
+      "video": false,
+      "vote_average": 8.5,
+      "vote_count": 4519
+    },
+    {
+      "id": "1219158",
+      "adult": false,
+      "backdrop_path": "/7OwcPLgNgK3CmNaXQdLqeVStnFC.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 10749,
+          "name": "Romance"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt28566478",
+      "origin_country": [
+        "IN"
+      ],
+      "original_language": "ta",
+      "original_title": "லவ்வர்",
+      "overview": "An alcoholic designer struggles to save his six-year relationship while facing personal challenges and misunderstandings. As their bond is tested, he begins to confront his past and question whether love alone is enough to hold them together.",
+      "popularity": 29.3106,
+      "poster_path": "/5rN7wzvM9oAR35sQVNUt8JuTDFS.jpg",
+      "production_companies": [
+        {
+          "id": 194234,
+          "logo_path": null,
+          "name": "Million Dollar Studios",
+          "origin_country": "IN"
+        },
+        {
+          "id": 219505,
+          "logo_path": null,
+          "name": "MRP Entertainement",
+          "origin_country": ""
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "IN",
+          "name": "India"
+        }
+      ],
+      "release_date": "2024-02-07",
+      "revenue": 0,
+      "runtime": 145,
+      "spoken_languages": [
+        {
+          "english_name": "Tamil",
+          "iso_639_1": "ta",
+          "name": "தமிழ்"
+        }
+      ],
+      "status": "Released",
+      "tagline": "",
+      "title": "Lover",
+      "video": false,
+      "vote_average": 7.286,
+      "vote_count": 14
+    },
+    {
+      "id": "1219158",
+      "adult": false,
+      "backdrop_path": "/7OwcPLgNgK3CmNaXQdLqeVStnFC.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 10749,
+          "name": "Romance"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt28566478",
+      "origin_country": [
+        "IN"
+      ],
+      "original_language": "ta",
+      "original_title": "லவ்வர்",
+      "overview": "An alcoholic designer struggles to save his six-year relationship while facing personal challenges and misunderstandings. As their bond is tested, he begins to confront his past and question whether love alone is enough to hold them together.",
+      "popularity": 29.3106,
+      "poster_path": "/5rN7wzvM9oAR35sQVNUt8JuTDFS.jpg",
+      "production_companies": [
+        {
+          "id": 194234,
+          "logo_path": null,
+          "name": "Million Dollar Studios",
+          "origin_country": "IN"
+        },
+        {
+          "id": 219505,
+          "logo_path": null,
+          "name": "MRP Entertainement",
+          "origin_country": ""
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "IN",
+          "name": "India"
+        }
+      ],
+      "release_date": "2024-02-07",
+      "revenue": 0,
+      "runtime": 145,
+      "spoken_languages": [
+        {
+          "english_name": "Tamil",
+          "iso_639_1": "ta",
+          "name": "தமிழ்"
+        }
+      ],
+      "status": "Released",
+      "tagline": "",
+      "title": "Lover",
+      "video": false,
+      "vote_average": 7.286,
+      "vote_count": 14
+    },
+    {
+      "id": 1241634,
+      "adult": false,
+      "backdrop_path": "/mguy0nefEUY7NKruffpLO3Stj3d.jpg",
+      "belongs_to_collection": null,
+      "budget": 5500000,
+      "genres": [
+        {
+          "id": 10749,
+          "name": "Romance"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 10402,
+          "name": "Music"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt28037987",
+      "origin_country": [],
+      "original_language": "hi",
+      "original_title": "सैयारा",
+      "overview": "Two artistic souls find harmony through music despite their contrasting worlds. As feelings deepen, age and circumstances challenge their undeniable bond.",
+      "popularity": 21.0395,
+      "poster_path": "/hQBIsi3ZfBYEayMc3GhcEmJVkss.jpg",
+      "production_companies": [
+        {
+          "id": 1569,
+          "logo_path": "/lvzN86o3jrP44DIvn4SMBLOl9PF.png",
+          "name": "Yash Raj Films",
+          "origin_country": "IN"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "IN",
+          "name": "India"
+        }
+      ],
+      "release_date": "2025-07-18",
+      "revenue": 63539300,
+      "runtime": 150,
+      "spoken_languages": [
+        {
+          "english_name": "Hindi",
+          "iso_639_1": "hi",
+          "name": "हिन्दी"
+        }
+      ],
+      "status": "Released",
+      "tagline": "",
+      "title": "Saiyaara",
+      "video": false,
+      "vote_average": 6.354,
+      "vote_count": 120
+    },
+    {
+      "id": 1241634,
+      "adult": false,
+      "backdrop_path": "/mguy0nefEUY7NKruffpLO3Stj3d.jpg",
+      "belongs_to_collection": null,
+      "budget": 5500000,
+      "genres": [
+        {
+          "id": 10749,
+          "name": "Romance"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 10402,
+          "name": "Music"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt28037987",
+      "origin_country": [],
+      "original_language": "hi",
+      "original_title": "सैयारा",
+      "overview": "Two artistic souls find harmony through music despite their contrasting worlds. As feelings deepen, age and circumstances challenge their undeniable bond.",
+      "popularity": 21.0395,
+      "poster_path": "/hQBIsi3ZfBYEayMc3GhcEmJVkss.jpg",
+      "production_companies": [
+        {
+          "id": 1569,
+          "logo_path": "/lvzN86o3jrP44DIvn4SMBLOl9PF.png",
+          "name": "Yash Raj Films",
+          "origin_country": "IN"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "IN",
+          "name": "India"
+        }
+      ],
+      "release_date": "2025-07-18",
+      "revenue": 63539300,
+      "runtime": 150,
+      "spoken_languages": [
+        {
+          "english_name": "Hindi",
+          "iso_639_1": "hi",
+          "name": "हिन्दी"
+        }
+      ],
+      "status": "Released",
+      "tagline": "",
+      "title": "Saiyaara",
+      "video": false,
+      "vote_average": 6.354,
+      "vote_count": 120
     }
   ],
   "reviews": [
@@ -5302,15 +5844,6 @@
       "date": "2025-12-01"
     },
     {
-      "id": "cfb9",
-      "movieId": 1448560,
-      "rating": 6,
-      "comment": "Great Teamwork Episodes In the movie...",
-      "user": "Ullas",
-      "userId": "539a",
-      "date": "2025-12-01"
-    },
-    {
       "id": "7fd0",
       "movieId": 1539104,
       "rating": 10,
@@ -5336,6 +5869,42 @@
       "user": "Siva Sai",
       "userId": "32cf",
       "date": "2025-12-01"
+    },
+    {
+      "id": "8b55",
+      "movieId": 1084242,
+      "rating": 9,
+      "comment": "Superb Movie!",
+      "user": "Sandeep",
+      "userId": "bef7",
+      "date": "2025-12-01"
+    },
+    {
+      "id": "efd4",
+      "movieId": 1241634,
+      "rating": 8,
+      "comment": "Too Good Man!",
+      "user": "Sandeep",
+      "userId": "bef7",
+      "date": "2025-12-03"
+    },
+    {
+      "id": "767b",
+      "movieId": 1539104,
+      "rating": 8,
+      "comment": "After Watching This Film I Became Fan Of Anime...!",
+      "user": "Ullas",
+      "userId": "539a",
+      "date": "2025-12-03"
+    },
+    {
+      "id": "1f43",
+      "movieId": 1309012,
+      "rating": 7,
+      "comment": "\"Greatest Cinematography Overall!!!\"",
+      "user": "Siva Sai",
+      "userId": "32cf",
+      "date": "2025-12-03"
     }
   ]
 }
